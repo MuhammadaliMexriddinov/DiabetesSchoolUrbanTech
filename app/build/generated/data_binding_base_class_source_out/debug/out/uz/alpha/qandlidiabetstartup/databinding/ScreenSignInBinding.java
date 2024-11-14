@@ -33,6 +33,9 @@ public final class ScreenSignInBinding implements ViewBinding {
   public final AppCompatButton btnSignIn;
 
   @NonNull
+  public final AppCompatButton btnSignInDoctor;
+
+  @NonNull
   public final TextView btnSignUp;
 
   @NonNull
@@ -51,13 +54,15 @@ public final class ScreenSignInBinding implements ViewBinding {
   public final EditText txtParol;
 
   private ScreenSignInBinding(@NonNull ConstraintLayout rootView, @NonNull TextView btnNext,
-      @NonNull TextView btnParol, @NonNull AppCompatButton btnSignIn, @NonNull TextView btnSignUp,
+      @NonNull TextView btnParol, @NonNull AppCompatButton btnSignIn,
+      @NonNull AppCompatButton btnSignInDoctor, @NonNull TextView btnSignUp,
       @NonNull LinearLayout fieldMain, @NonNull ImageView imgIcon, @NonNull TextView txtDescription,
       @NonNull EditText txtName, @NonNull EditText txtParol) {
     this.rootView = rootView;
     this.btnNext = btnNext;
     this.btnParol = btnParol;
     this.btnSignIn = btnSignIn;
+    this.btnSignInDoctor = btnSignInDoctor;
     this.btnSignUp = btnSignUp;
     this.fieldMain = fieldMain;
     this.imgIcon = imgIcon;
@@ -111,6 +116,12 @@ public final class ScreenSignInBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.btnSignInDoctor;
+      AppCompatButton btnSignInDoctor = ViewBindings.findChildViewById(rootView, id);
+      if (btnSignInDoctor == null) {
+        break missingId;
+      }
+
       id = R.id.btnSignUp;
       TextView btnSignUp = ViewBindings.findChildViewById(rootView, id);
       if (btnSignUp == null) {
@@ -148,7 +159,7 @@ public final class ScreenSignInBinding implements ViewBinding {
       }
 
       return new ScreenSignInBinding((ConstraintLayout) rootView, btnNext, btnParol, btnSignIn,
-          btnSignUp, fieldMain, imgIcon, txtDescription, txtName, txtParol);
+          btnSignInDoctor, btnSignUp, fieldMain, imgIcon, txtDescription, txtName, txtParol);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

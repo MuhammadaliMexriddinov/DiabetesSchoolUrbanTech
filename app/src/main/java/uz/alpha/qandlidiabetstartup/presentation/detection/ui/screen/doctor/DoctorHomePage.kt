@@ -25,6 +25,10 @@ class DoctorHomePage : Fragment(R.layout.page_doctor_main) {
             btn3.setOnClickListener {
                 findNavController().navigate(R.id.cachingScreen)
             }
+
+            btnLogout.setOnClickListener {
+                findNavController().navigate(R.id.signInScreen)
+            }
         }
     }
 }

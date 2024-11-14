@@ -1,202 +1,218 @@
 [
     {
-        "merged": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-mergeDebugResources-65:/layout/screen_others.xml",
-        "source": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-main-68:/layout/screen_others.xml"
+        "merged": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-mergeDebugResources-69:/layout/screen_rake.xml",
+        "source": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-main-72:/layout/screen_rake.xml"
     },
     {
-        "merged": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-mergeDebugResources-65:/layout/screen_bread.xml",
-        "source": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-main-68:/layout/screen_bread.xml"
+        "merged": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-mergeDebugResources-69:/layout/page_sick.xml",
+        "source": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-main-72:/layout/page_sick.xml"
     },
     {
-        "merged": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-mergeDebugResources-65:/layout/layout_ruxsat.xml",
-        "source": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-main-68:/layout/layout_ruxsat.xml"
+        "merged": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-mergeDebugResources-69:/layout/page_doctor_main.xml",
+        "source": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-main-72:/layout/page_doctor_main.xml"
     },
     {
-        "merged": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-mergeDebugResources-65:/layout/screen_info.xml",
-        "source": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-main-68:/layout/screen_info.xml"
+        "merged": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-mergeDebugResources-69:/layout/dialog_start_open.xml",
+        "source": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-main-72:/layout/dialog_start_open.xml"
     },
     {
-        "merged": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-mergeDebugResources-65:/layout/screen_firsttype.xml",
-        "source": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-main-68:/layout/screen_firsttype.xml"
+        "merged": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-mergeDebugResources-69:/layout/screen_instructor.xml",
+        "source": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-main-72:/layout/screen_instructor.xml"
     },
     {
-        "merged": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-mergeDebugResources-65:/layout/screen_assistant.xml",
-        "source": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-main-68:/layout/screen_assistant.xml"
+        "merged": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-mergeDebugResources-69:/layout/screen_score_find.xml",
+        "source": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-main-72:/layout/screen_score_find.xml"
     },
     {
-        "merged": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-mergeDebugResources-65:/layout/screen_caching.xml",
-        "source": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-main-68:/layout/screen_caching.xml"
+        "merged": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-mergeDebugResources-69:/layout/screen_findrisk.xml",
+        "source": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-main-72:/layout/screen_findrisk.xml"
     },
     {
-        "merged": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-mergeDebugResources-65:/layout/screen_secondtype.xml",
-        "source": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-main-68:/layout/screen_secondtype.xml"
+        "merged": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-mergeDebugResources-69:/layout/page_red.xml",
+        "source": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-main-72:/layout/page_red.xml"
     },
     {
-        "merged": "uz.alpha.qandlidiabetstartup.app-mergeDebugResources-65:/layout/screen_sign_in.xml",
-        "source": "uz.alpha.qandlidiabetstartup.app-main-68:/layout/screen_sign_in.xml"
+        "merged": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-mergeDebugResources-69:/layout/page_profil.xml",
+        "source": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-main-72:/layout/page_profil.xml"
     },
     {
-        "merged": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-mergeDebugResources-65:/layout/screen_start.xml",
-        "source": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-main-68:/layout/screen_start.xml"
+        "merged": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-mergeDebugResources-69:/layout/layout_home.xml",
+        "source": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-main-72:/layout/layout_home.xml"
     },
     {
-        "merged": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-mergeDebugResources-65:/layout/page_doctor_main.xml",
-        "source": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-main-68:/layout/page_doctor_main.xml"
+        "merged": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-mergeDebugResources-69:/layout/screen_chat_detail.xml",
+        "source": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-main-72:/layout/screen_chat_detail.xml"
     },
     {
-        "merged": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-mergeDebugResources-65:/layout/screen_verify.xml",
-        "source": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-main-68:/layout/screen_verify.xml"
+        "merged": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-mergeDebugResources-69:/layout/screen_sign_up.xml",
+        "source": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-main-72:/layout/screen_sign_up.xml"
     },
     {
-        "merged": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-mergeDebugResources-65:/layout/activity_main.xml",
-        "source": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-main-68:/layout/activity_main.xml"
+        "merged": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-mergeDebugResources-69:/layout/screen_foods.xml",
+        "source": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-main-72:/layout/screen_foods.xml"
     },
     {
-        "merged": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-mergeDebugResources-65:/layout/screen_findrisk.xml",
-        "source": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-main-68:/layout/screen_findrisk.xml"
+        "merged": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-mergeDebugResources-69:/layout/screen_sign_in.xml",
+        "source": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-main-72:/layout/screen_sign_in.xml"
     },
     {
-        "merged": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-mergeDebugResources-65:/layout/screen_instructor.xml",
-        "source": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-main-68:/layout/screen_instructor.xml"
+        "merged": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-mergeDebugResources-69:/layout/dialog_result.xml",
+        "source": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-main-72:/layout/dialog_result.xml"
     },
     {
-        "merged": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-mergeDebugResources-65:/layout/screen_rake.xml",
-        "source": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-main-68:/layout/screen_rake.xml"
+        "merged": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-mergeDebugResources-69:/layout/screen_delete.xml",
+        "source": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-main-72:/layout/screen_delete.xml"
     },
     {
-        "merged": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-mergeDebugResources-65:/layout/screen_dailyinsulin.xml",
-        "source": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-main-68:/layout/screen_dailyinsulin.xml"
+        "merged": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-mergeDebugResources-69:/layout/screen_splash.xml",
+        "source": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-main-72:/layout/screen_splash.xml"
     },
     {
-        "merged": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-mergeDebugResources-65:/layout/page_red.xml",
-        "source": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-main-68:/layout/page_red.xml"
+        "merged": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-mergeDebugResources-69:/layout/dialog_change_name.xml",
+        "source": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-main-72:/layout/dialog_change_name.xml"
     },
     {
-        "merged": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-mergeDebugResources-65:/layout/page_sick.xml",
-        "source": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-main-68:/layout/page_sick.xml"
+        "merged": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-mergeDebugResources-69:/layout/layout_start.xml",
+        "source": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-main-72:/layout/layout_start.xml"
     },
     {
-        "merged": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-mergeDebugResources-65:/layout/page_green.xml",
-        "source": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-main-68:/layout/page_green.xml"
+        "merged": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-mergeDebugResources-69:/layout/page_doctor_chat.xml",
+        "source": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-main-72:/layout/page_doctor_chat.xml"
     },
     {
-        "merged": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-mergeDebugResources-65:/layout/screen_language.xml",
-        "source": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-main-68:/layout/screen_language.xml"
+        "merged": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-mergeDebugResources-69:/layout/item_chat.xml",
+        "source": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-main-72:/layout/item_chat.xml"
     },
     {
-        "merged": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-mergeDebugResources-65:/layout/screen_main.xml",
-        "source": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-main-68:/layout/screen_main.xml"
+        "merged": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-mergeDebugResources-69:/layout/screen_dailyinsulin.xml",
+        "source": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-main-72:/layout/screen_dailyinsulin.xml"
     },
     {
-        "merged": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-mergeDebugResources-65:/layout/dialog_start_open.xml",
-        "source": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-main-68:/layout/dialog_start_open.xml"
+        "merged": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-mergeDebugResources-69:/layout/screen_assistant.xml",
+        "source": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-main-72:/layout/screen_assistant.xml"
     },
     {
-        "merged": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-mergeDebugResources-65:/layout/screen_score_find.xml",
-        "source": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-main-68:/layout/screen_score_find.xml"
+        "merged": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-mergeDebugResources-69:/layout/screen_language.xml",
+        "source": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-main-72:/layout/screen_language.xml"
     },
     {
-        "merged": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-mergeDebugResources-65:/layout/page_test.xml",
-        "source": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-main-68:/layout/page_test.xml"
+        "merged": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-mergeDebugResources-69:/layout/screen_firsttype.xml",
+        "source": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-main-72:/layout/screen_firsttype.xml"
     },
     {
-        "merged": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-mergeDebugResources-65:/layout/page_chat.xml",
-        "source": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-main-68:/layout/page_chat.xml"
+        "merged": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-mergeDebugResources-69:/layout/page_chat.xml",
+        "source": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-main-72:/layout/page_chat.xml"
     },
     {
-        "merged": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-mergeDebugResources-65:/layout/dialog_change_name.xml",
-        "source": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-main-68:/layout/dialog_change_name.xml"
+        "merged": "uz.alpha.qandlidiabetstartup.app-mergeDebugResources-69:/layout/screen_chat_user.xml",
+        "source": "uz.alpha.qandlidiabetstartup.app-main-72:/layout/screen_chat_user.xml"
     },
     {
-        "merged": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-mergeDebugResources-65:/layout/page_yellow.xml",
-        "source": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-main-68:/layout/page_yellow.xml"
+        "merged": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-mergeDebugResources-69:/layout/screen_secondtype.xml",
+        "source": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-main-72:/layout/screen_secondtype.xml"
     },
     {
-        "merged": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-mergeDebugResources-65:/layout/screen_third.xml",
-        "source": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-main-68:/layout/screen_third.xml"
+        "merged": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-mergeDebugResources-69:/layout/screen_diabet.xml",
+        "source": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-main-72:/layout/screen_diabet.xml"
     },
     {
-        "merged": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-mergeDebugResources-65:/layout/screen_sign_up.xml",
-        "source": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-main-68:/layout/screen_sign_up.xml"
+        "merged": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-mergeDebugResources-69:/layout/screen_others.xml",
+        "source": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-main-72:/layout/screen_others.xml"
     },
     {
-        "merged": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-mergeDebugResources-65:/layout/screen_sign_in.xml",
-        "source": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-main-68:/layout/screen_sign_in.xml"
+        "merged": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-mergeDebugResources-69:/layout/screen_information.xml",
+        "source": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-main-72:/layout/screen_information.xml"
     },
     {
-        "merged": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-mergeDebugResources-65:/layout/screen_foods.xml",
-        "source": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-main-68:/layout/screen_foods.xml"
+        "merged": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-mergeDebugResources-69:/layout/page_yellow.xml",
+        "source": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-main-72:/layout/page_yellow.xml"
     },
     {
-        "merged": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-mergeDebugResources-65:/layout/item.xml",
-        "source": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-main-68:/layout/item.xml"
+        "merged": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-mergeDebugResources-69:/layout/screen_bread.xml",
+        "source": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-main-72:/layout/screen_bread.xml"
     },
     {
-        "merged": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-mergeDebugResources-65:/layout/dialog_result.xml",
-        "source": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-main-68:/layout/dialog_result.xml"
+        "merged": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-mergeDebugResources-69:/layout/layout_ruxsat.xml",
+        "source": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-main-72:/layout/layout_ruxsat.xml"
     },
     {
-        "merged": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-mergeDebugResources-65:/layout/screen_delete.xml",
-        "source": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-main-68:/layout/screen_delete.xml"
+        "merged": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-mergeDebugResources-69:/layout/screen_chat_user.xml",
+        "source": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-main-72:/layout/screen_chat_user.xml"
     },
     {
-        "merged": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-mergeDebugResources-65:/layout/page_doctor_chat.xml",
-        "source": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-main-68:/layout/page_doctor_chat.xml"
+        "merged": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-mergeDebugResources-69:/layout/page_test.xml",
+        "source": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-main-72:/layout/page_test.xml"
     },
     {
-        "merged": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-mergeDebugResources-65:/layout/screen_doctor.xml",
-        "source": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-main-68:/layout/screen_doctor.xml"
+        "merged": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-mergeDebugResources-69:/layout/screen_doctor.xml",
+        "source": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-main-72:/layout/screen_doctor.xml"
     },
     {
-        "merged": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-mergeDebugResources-65:/layout/screen_information.xml",
-        "source": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-main-68:/layout/screen_information.xml"
+        "merged": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-mergeDebugResources-69:/layout/layout_language.xml",
+        "source": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-main-72:/layout/layout_language.xml"
     },
     {
-        "merged": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-mergeDebugResources-65:/layout/screen_test_diabetc.xml",
-        "source": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-main-68:/layout/screen_test_diabetc.xml"
+        "merged": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-mergeDebugResources-69:/layout/screen_caching.xml",
+        "source": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-main-72:/layout/screen_caching.xml"
     },
     {
-        "merged": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-mergeDebugResources-65:/layout/page_profil.xml",
-        "source": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-main-68:/layout/page_profil.xml"
+        "merged": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-mergeDebugResources-69:/layout/activity_main.xml",
+        "source": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-main-72:/layout/activity_main.xml"
     },
     {
-        "merged": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-mergeDebugResources-65:/layout/screen_splash.xml",
-        "source": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-main-68:/layout/screen_splash.xml"
+        "merged": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-mergeDebugResources-69:/layout/screen_start.xml",
+        "source": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-main-72:/layout/screen_start.xml"
     },
     {
-        "merged": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-mergeDebugResources-65:/layout/layout_language.xml",
-        "source": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-main-68:/layout/layout_language.xml"
+        "merged": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-mergeDebugResources-69:/layout/screen_info.xml",
+        "source": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-main-72:/layout/screen_info.xml"
     },
     {
-        "merged": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-mergeDebugResources-65:/layout/layout_home.xml",
-        "source": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-main-68:/layout/layout_home.xml"
+        "merged": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-mergeDebugResources-69:/layout/screen_main_treatment.xml",
+        "source": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-main-72:/layout/screen_main_treatment.xml"
     },
     {
-        "merged": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-mergeDebugResources-65:/layout/page_school.xml",
-        "source": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-main-68:/layout/page_school.xml"
+        "merged": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-mergeDebugResources-69:/layout/screen_main.xml",
+        "source": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-main-72:/layout/screen_main.xml"
     },
     {
-        "merged": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-mergeDebugResources-65:/layout/screen_diabet.xml",
-        "source": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-main-68:/layout/screen_diabet.xml"
+        "merged": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-mergeDebugResources-69:/layout/screen_test_diabetc.xml",
+        "source": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-main-72:/layout/screen_test_diabetc.xml"
     },
     {
-        "merged": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-mergeDebugResources-65:/layout/item_note.xml",
-        "source": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-main-68:/layout/item_note.xml"
+        "merged": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-mergeDebugResources-69:/layout/page_school.xml",
+        "source": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-main-72:/layout/page_school.xml"
     },
     {
-        "merged": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-mergeDebugResources-65:/layout/layout_start.xml",
-        "source": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-main-68:/layout/layout_start.xml"
+        "merged": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-mergeDebugResources-69:/layout/screen_third.xml",
+        "source": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-main-72:/layout/screen_third.xml"
     },
     {
-        "merged": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-mergeDebugResources-65:/layout/page_doctor_profile.xml",
-        "source": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-main-68:/layout/page_doctor_profile.xml"
+        "merged": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-mergeDebugResources-69:/layout/screen_verify.xml",
+        "source": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-main-72:/layout/screen_verify.xml"
     },
     {
-        "merged": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-mergeDebugResources-65:/layout/item_info.xml",
-        "source": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-main-68:/layout/item_info.xml"
+        "merged": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-mergeDebugResources-69:/layout/item.xml",
+        "source": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-main-72:/layout/item.xml"
     },
     {
-        "merged": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-mergeDebugResources-65:/layout/screen_main_treatment.xml",
-        "source": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-main-68:/layout/screen_main_treatment.xml"
+        "merged": "uz.alpha.qandlidiabetstartup.app-mergeDebugResources-69:/layout/item_chat.xml",
+        "source": "uz.alpha.qandlidiabetstartup.app-main-72:/layout/item_chat.xml"
+    },
+    {
+        "merged": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-mergeDebugResources-69:/layout/page_doctor_profile.xml",
+        "source": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-main-72:/layout/page_doctor_profile.xml"
+    },
+    {
+        "merged": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-mergeDebugResources-69:/layout/item_note.xml",
+        "source": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-main-72:/layout/item_note.xml"
+    },
+    {
+        "merged": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-mergeDebugResources-69:/layout/page_green.xml",
+        "source": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-main-72:/layout/page_green.xml"
+    },
+    {
+        "merged": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-mergeDebugResources-69:/layout/item_info.xml",
+        "source": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-main-72:/layout/item_info.xml"
     }
 ]

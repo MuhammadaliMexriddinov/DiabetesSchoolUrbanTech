@@ -25,6 +25,9 @@ public final class LayoutHomeBinding implements ViewBinding {
   public final ImageView btnLanguage;
 
   @NonNull
+  public final ImageView btnLogout;
+
+  @NonNull
   public final LinearLayout btnTab1;
 
   @NonNull
@@ -43,10 +46,12 @@ public final class LayoutHomeBinding implements ViewBinding {
   public final TextView txtTab2;
 
   private LayoutHomeBinding(@NonNull LinearLayout rootView, @NonNull ImageView btnLanguage,
-      @NonNull LinearLayout btnTab1, @NonNull LinearLayout btnTab2, @NonNull LinearLayout mainField,
-      @NonNull ViewPager2 pageMain, @NonNull TextView txtTab1, @NonNull TextView txtTab2) {
+      @NonNull ImageView btnLogout, @NonNull LinearLayout btnTab1, @NonNull LinearLayout btnTab2,
+      @NonNull LinearLayout mainField, @NonNull ViewPager2 pageMain, @NonNull TextView txtTab1,
+      @NonNull TextView txtTab2) {
     this.rootView = rootView;
     this.btnLanguage = btnLanguage;
+    this.btnLogout = btnLogout;
     this.btnTab1 = btnTab1;
     this.btnTab2 = btnTab2;
     this.mainField = mainField;
@@ -88,6 +93,12 @@ public final class LayoutHomeBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.btnLogout;
+      ImageView btnLogout = ViewBindings.findChildViewById(rootView, id);
+      if (btnLogout == null) {
+        break missingId;
+      }
+
       id = R.id.btnTab1;
       LinearLayout btnTab1 = ViewBindings.findChildViewById(rootView, id);
       if (btnTab1 == null) {
@@ -124,8 +135,8 @@ public final class LayoutHomeBinding implements ViewBinding {
         break missingId;
       }
 
-      return new LayoutHomeBinding((LinearLayout) rootView, btnLanguage, btnTab1, btnTab2,
-          mainField, pageMain, txtTab1, txtTab2);
+      return new LayoutHomeBinding((LinearLayout) rootView, btnLanguage, btnLogout, btnTab1,
+          btnTab2, mainField, pageMain, txtTab1, txtTab2);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

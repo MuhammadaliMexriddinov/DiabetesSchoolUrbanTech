@@ -161,6 +161,15 @@
         <action
             android:id="@+id/action_mainScreen_to_secondTypeDiabetic"
             app:destination="@id/secondTypeDiabetic" />
+        <action
+            android:id="@+id/action_mainScreen_to_detailChatScreen"
+            app:destination="@id/detailChatScreen" />
+        <action
+            android:id="@+id/action_mainScreen_to_signInScreen"
+            app:destination="@id/signInScreen" />
+        <action
+            android:id="@+id/action_mainScreen_to_detailsUserScreen2"
+            app:destination="@id/detailsUserScreen2" />
     </fragment>
     <fragment
         android:id="@+id/dailyInsulinScreen"
@@ -190,6 +199,31 @@
         <action
             android:id="@+id/action_doctorMainScreen_to_informationScreen"
             app:destination="@id/informationScreen" />
+        <action
+            android:id="@+id/action_doctorMainScreen_to_detailChatScreen"
+            app:destination="@id/detailChatScreen" />
+        <action
+            android:id="@+id/action_doctorMainScreen_to_signInScreen"
+            app:destination="@id/signInScreen" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailChatScreen"
+        android:name="uz.alpha.qandlidiabetstartup.presentation.detection.ui.screen.screen.DetailChatScreen"
+        android:label="DetailChatScreen" >
+        <action
+            android:id="@+id/action_detailChatScreen_to_doctorMainScreen"
+            app:destination="@id/doctorMainScreen" />
+        <action
+            android:id="@+id/action_detailChatScreen_to_mainScreen"
+            app:destination="@id/mainScreen" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailsUserScreen2"
+        android:name="uz.alpha.qandlidiabetstartup.presentation.detection.ui.screen.screen.DetailsUserScreen"
+        android:label="DetailsUserScreen" >
+        <action
+            android:id="@+id/action_detailsUserScreen2_to_mainScreen"
+            app:destination="@id/mainScreen" />
     </fragment>
 
 </navigation>

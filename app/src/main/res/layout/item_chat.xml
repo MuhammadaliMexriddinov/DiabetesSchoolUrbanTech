@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/chat_second"
+    android:layout_margin="6dp"
+    android:id="@+id/itemMainCard"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:src="@drawable/chaticon"
+        app:tint="@color/color1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="12dp"/>
+
+
+
+
+    <TextView
+        android:id="@+id/txtMessage"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Среди других услуг, предоставлявшихся компанией — запущенный 13 мая 2014 года хостинг для хранения статических файлов (таких как CSS, HTML, JavaScript), обеспечивающий доставку через"
+        app:layout_constraintStart_toEndOf="@id/img"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:padding="4dp"
+        android:gravity="start"
+        android:layout_marginStart="4dp"
+        android:layout_marginEnd="32dp"/>
+
+    <TextView
+        android:id="@+id/txtTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="12:08"
+        android:textColor="@color/color1"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/txtMessage"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="12dp"
+        android:padding="4dp"/>
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

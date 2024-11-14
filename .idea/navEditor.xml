@@ -56,13 +56,60 @@
                       </LayoutPositions>
                     </value>
                   </entry>
+                  <entry key="detailChatScreen">
+                    <value>
+                      <LayoutPositions>
+                        <option name="myPosition">
+                          <Point>
+                            <option name="x" value="1032" />
+                            <option name="y" value="1357" />
+                          </Point>
+                        </option>
+                        <option name="myPositions">
+                          <map>
+                            <entry key="action_detailChatScreen_to_doctorMainScreen">
+                              <value>
+                                <LayoutPositions />
+                              </value>
+                            </entry>
+                            <entry key="action_detailChatScreen_to_mainScreen">
+                              <value>
+                                <LayoutPositions />
+                              </value>
+                            </entry>
+                          </map>
+                        </option>
+                      </LayoutPositions>
+                    </value>
+                  </entry>
+                  <entry key="detailsUserScreen2">
+                    <value>
+                      <LayoutPositions>
+                        <option name="myPosition">
+                          <Point>
+                            <option name="x" value="1685" />
+                            <option name="y" value="3038" />
+                          </Point>
+                        </option>
+                        <option name="myPositions">
+                          <map>
+                            <entry key="action_detailsUserScreen2_to_mainScreen">
+                              <value>
+                                <LayoutPositions />
+                              </value>
+                            </entry>
+                          </map>
+                        </option>
+                      </LayoutPositions>
+                    </value>
+                  </entry>
                   <entry key="diabetScreen">
                     <value>
                       <LayoutPositions>
                         <option name="myPosition">
                           <Point>
-                            <option name="x" value="1720" />
-                            <option name="y" value="767" />
+                            <option name="x" value="1737" />
+                            <option name="y" value="1025" />
                           </Point>
                         </option>
                       </LayoutPositions>
@@ -73,9 +120,28 @@
                       <LayoutPositions>
                         <option name="myPosition">
                           <Point>
-                            <option name="x" value="933" />
-                            <option name="y" value="1899" />
+                            <option name="x" value="855" />
+                            <option name="y" value="1857" />
                           </Point>
+                        </option>
+                        <option name="myPositions">
+                          <map>
+                            <entry key="action_doctorMainScreen_to_detailChatScreen">
+                              <value>
+                                <LayoutPositions />
+                              </value>
+                            </entry>
+                            <entry key="action_doctorMainScreen_to_informationScreen">
+                              <value>
+                                <LayoutPositions />
+                              </value>
+                            </entry>
+                            <entry key="action_doctorMainScreen_to_signInScreen">
+                              <value>
+                                <LayoutPositions />
+                              </value>
+                            </entry>
+                          </map>
                         </option>
                       </LayoutPositions>
                     </value>
@@ -174,11 +240,21 @@
                         <option name="myPosition">
                           <Point>
                             <option name="x" value="1476" />
-                            <option name="y" value="2446" />
+                            <option name="y" value="2702" />
                           </Point>
                         </option>
                         <option name="myPositions">
                           <map>
+                            <entry key="action_mainScreen_to_detailChatScreen">
+                              <value>
+                                <LayoutPositions />
+                              </value>
+                            </entry>
+                            <entry key="action_mainScreen_to_detailsUserScreen2">
+                              <value>
+                                <LayoutPositions />
+                              </value>
+                            </entry>
                             <entry key="action_mainScreen_to_diabetScreen">
                               <value>
                                 <LayoutPositions />
@@ -210,6 +286,11 @@
                               </value>
                             </entry>
                             <entry key="action_mainScreen_to_secondTypeDiabetic">
+                              <value>
+                                <LayoutPositions />
+                              </value>
+                            </entry>
+                            <entry key="action_mainScreen_to_signInScreen">
                               <value>
                                 <LayoutPositions />
                               </value>
@@ -267,8 +348,8 @@
                       <LayoutPositions>
                         <option name="myPosition">
                           <Point>
-                            <option name="x" value="1720" />
-                            <option name="y" value="1123" />
+                            <option name="x" value="1553" />
+                            <option name="y" value="1332" />
                           </Point>
                         </option>
                         <option name="myPositions">
@@ -383,8 +464,8 @@
                       <LayoutPositions>
                         <option name="myPosition">
                           <Point>
-                            <option name="x" value="1720" />
-                            <option name="y" value="411" />
+                            <option name="x" value="1671" />
+                            <option name="y" value="625" />
                           </Point>
                         </option>
                       </LayoutPositions>

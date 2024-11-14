@@ -50,12 +50,14 @@ drawable bel
 drawable bg_bottom_nav
 drawable catsi_logo_l
 drawable change
+drawable chat_second
 drawable chaticon
 drawable checked
 drawable chek
 drawable chooselaguage
 drawable customshape
 drawable db
+drawable demo_shape
 drawable diabet
 drawable diabetos
 drawable doctor1
@@ -100,6 +102,7 @@ drawable info
 drawable insta
 drawable lang
 drawable logom
+drawable logout
 drawable mainaccept
 drawable mainicon
 drawable mainignore
@@ -120,6 +123,7 @@ drawable red
 drawable risk
 drawable russia
 drawable screen_gradient
+drawable sendmessage
 drawable sh_cancel
 drawable sh_yes
 drawable shape3
@@ -127,6 +131,7 @@ drawable shape4
 drawable shape_bottom_left
 drawable shape_bottom_right
 drawable shape_default
+drawable shape_first
 drawable shape_food_green
 drawable shape_food_red
 drawable shape_food_yellow
@@ -181,11 +186,18 @@ font roboto_flex
 font roboto_serif_medium
 font roboto_thin
 font ubuntu_light
+id action_detailChatScreen_to_doctorMainScreen
+id action_detailChatScreen_to_mainScreen
+id action_detailsUserScreen2_to_mainScreen
+id action_doctorMainScreen_to_detailChatScreen
 id action_doctorMainScreen_to_informationScreen
+id action_doctorMainScreen_to_signInScreen
 id action_firstTypeDiabetic_to_breadOneScreen
 id action_firstTypeDiabetic_to_dailyInsulinScreen
 id action_firstTypeDiabetic_to_insulinInstructorScreen
 id action_langScreen_to_mainScreen
+id action_mainScreen_to_detailChatScreen
+id action_mainScreen_to_detailsUserScreen2
 id action_mainScreen_to_diabetScreen
 id action_mainScreen_to_firstTypeDiabetic
 id action_mainScreen_to_informationScreen
@@ -193,6 +205,7 @@ id action_mainScreen_to_langScreen
 id action_mainScreen_to_neuroAssistantScreen
 id action_mainScreen_to_rakeScreen
 id action_mainScreen_to_secondTypeDiabetic
+id action_mainScreen_to_signInScreen
 id action_mainScreen_to_thirdScreen
 id action_othersPage_to_appInformationScreen
 id action_othersPage_to_langScreen
@@ -234,6 +247,7 @@ id btnIndtructor
 id btnInfo
 id btnInsulin
 id btnLanguage
+id btnLogout
 id btnMain
 id btnMenu
 id btnN
@@ -260,7 +274,9 @@ id btnScore
 id btnScoreFirst
 id btnSecondType
 id btnSend
+id btnSendMessage
 id btnSignIn
+id btnSignInDoctor
 id btnSignUp
 id btnStart
 id btnTab1
@@ -289,6 +305,8 @@ id carouselRecyclerview
 id checkbox
 id constraintLayout
 id dailyInsulinScreen
+id detailChatScreen
+id detailsUserScreen2
 id diabetScreen
 id diabeticDetection
 id diabeticTreatment
@@ -337,6 +355,7 @@ id informationScreen
 id inputFamilya
 id inputFatherName
 id inputMail
+id inputMessage
 id inputName
 id inputNumber
 id inputPassword
@@ -349,6 +368,7 @@ id item1
 id item2
 id item3
 id item4
+id itemMainCard
 id l1
 id l2
 id l3
@@ -356,6 +376,7 @@ id langDesc
 id langScreen
 id linear1
 id listRV
+id list_rv
 id logoIv
 id m1
 id mainField
@@ -423,11 +444,14 @@ id txt4
 id txtDate
 id txtDescription
 id txtEn
+id txtMessage
 id txtName
 id txtParol
+id txtPersonal
 id txtRu
 id txtTab1
 id txtTab2
+id txtTime
 id txtTitle
 id txtUz
 id txt_item
@@ -444,6 +468,7 @@ layout dialog_change_name
 layout dialog_result
 layout dialog_start_open
 layout item
+layout item_chat
 layout item_info
 layout item_note
 layout layout_home
@@ -464,6 +489,8 @@ layout page_yellow
 layout screen_assistant
 layout screen_bread
 layout screen_caching
+layout screen_chat_detail
+layout screen_chat_user
 layout screen_dailyinsulin
 layout screen_delete
 layout screen_diabet
@@ -608,6 +635,11 @@ string food_yellow3_6
 string fordata
 string foydalanish2
 string foydalanish3
+string gcm_defaultSenderId
+string google_api_key
+string google_app_id
+string google_crash_reporting_api_key
+string google_storage_bucket
 string help
 string info11
 string info_1
@@ -644,6 +676,7 @@ string male
 string manba
 string name
 string no
+string project_id
 string register1_1
 string register1_2
 string register1_3

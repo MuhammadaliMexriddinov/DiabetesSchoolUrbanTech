@@ -261,6 +261,7 @@ attr buttonIconDimen
 attr buttonIconTint
 attr buttonIconTintMode
 attr buttonPanelSideLayout
+attr buttonSize
 attr buttonStyle
 attr buttonStyleSmall
 attr buttonTint
@@ -320,6 +321,7 @@ attr chipStrokeColor
 attr chipStrokeWidth
 attr chipStyle
 attr chipSurfaceColor
+attr circleCrop
 attr circleRadius
 attr circularProgressIndicatorStyle
 attr circularflow_angles
@@ -398,6 +400,7 @@ attr colorPrimaryFixedDim
 attr colorPrimaryInverse
 attr colorPrimarySurface
 attr colorPrimaryVariant
+attr colorScheme
 attr colorSecondary
 attr colorSecondaryContainer
 attr colorSecondaryFixed
@@ -697,6 +700,8 @@ attr iconTintMode
 attr iconifiedByDefault
 attr ifTagNotSet
 attr ifTagSet
+attr imageAspectRatio
+attr imageAspectRatioAdjust
 attr imageButtonStyle
 attr imagePanX
 attr imagePanY
@@ -1099,6 +1104,7 @@ attr roundPercent
 attr route
 attr saturation
 attr scaleFromTextSize
+attr scopeUris
 attr scrimAnimationDuration
 attr scrimBackground
 attr scrimVisibleHeightTrigger
@@ -1536,6 +1542,17 @@ color color_bg_note3
 color color_bg_note4
 color color_bg_note5
 color color_important
+color common_google_signin_btn_text_dark
+color common_google_signin_btn_text_dark_default
+color common_google_signin_btn_text_dark_disabled
+color common_google_signin_btn_text_dark_focused
+color common_google_signin_btn_text_dark_pressed
+color common_google_signin_btn_text_light
+color common_google_signin_btn_text_light_default
+color common_google_signin_btn_text_light_disabled
+color common_google_signin_btn_text_light_focused
+color common_google_signin_btn_text_light_pressed
+color common_google_signin_btn_tint
 color design_bottom_navigation_shadow_color
 color design_box_stroke_color
 color design_dark_default_color_background
@@ -3195,6 +3212,7 @@ drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
 drawable catsi_logo_l
 drawable change
+drawable chat_second
 drawable chaticon
 drawable checked
 drawable chek
@@ -3212,8 +3230,28 @@ drawable chucker_ic_save_white
 drawable chucker_ic_search_white
 drawable chucker_ic_share_white
 drawable chucker_ic_transaction_notification
+drawable common_full_open_on_phone
+drawable common_google_signin_btn_icon_dark
+drawable common_google_signin_btn_icon_dark_focused
+drawable common_google_signin_btn_icon_dark_normal
+drawable common_google_signin_btn_icon_dark_normal_background
+drawable common_google_signin_btn_icon_disabled
+drawable common_google_signin_btn_icon_light
+drawable common_google_signin_btn_icon_light_focused
+drawable common_google_signin_btn_icon_light_normal
+drawable common_google_signin_btn_icon_light_normal_background
+drawable common_google_signin_btn_text_dark
+drawable common_google_signin_btn_text_dark_focused
+drawable common_google_signin_btn_text_dark_normal
+drawable common_google_signin_btn_text_dark_normal_background
+drawable common_google_signin_btn_text_disabled
+drawable common_google_signin_btn_text_light
+drawable common_google_signin_btn_text_light_focused
+drawable common_google_signin_btn_text_light_normal
+drawable common_google_signin_btn_text_light_normal_background
 drawable customshape
 drawable db
+drawable demo_shape
 drawable design_fab_background
 drawable design_ic_visibility
 drawable design_ic_visibility_off
@@ -3242,6 +3280,8 @@ drawable food_green
 drawable food_red
 drawable food_yellow
 drawable footicon
+drawable googleg_disabled_color_18
+drawable googleg_standard_color_18
 drawable grad
 drawable green_warning
 drawable historyicon
@@ -3284,6 +3324,7 @@ drawable info
 drawable insta
 drawable lang
 drawable logom
+drawable logout
 drawable m3_appbar_background
 drawable m3_avd_hide_password
 drawable m3_avd_show_password
@@ -3375,6 +3416,7 @@ drawable red
 drawable risk
 drawable russia
 drawable screen_gradient
+drawable sendmessage
 drawable sh_cancel
 drawable sh_yes
 drawable shape3
@@ -3382,6 +3424,7 @@ drawable shape4
 drawable shape_bottom_left
 drawable shape_bottom_right
 drawable shape_default
+drawable shape_first
 drawable shape_food_green
 drawable shape_food_red
 drawable shape_food_yellow
@@ -3522,13 +3565,20 @@ id action_bar_subtitle
 id action_bar_title
 id action_container
 id action_context_bar
+id action_detailChatScreen_to_doctorMainScreen
+id action_detailChatScreen_to_mainScreen
+id action_detailsUserScreen2_to_mainScreen
 id action_divider
+id action_doctorMainScreen_to_detailChatScreen
 id action_doctorMainScreen_to_informationScreen
+id action_doctorMainScreen_to_signInScreen
 id action_firstTypeDiabetic_to_breadOneScreen
 id action_firstTypeDiabetic_to_dailyInsulinScreen
 id action_firstTypeDiabetic_to_insulinInstructorScreen
 id action_image
 id action_langScreen_to_mainScreen
+id action_mainScreen_to_detailChatScreen
+id action_mainScreen_to_detailsUserScreen2
 id action_mainScreen_to_diabetScreen
 id action_mainScreen_to_firstTypeDiabetic
 id action_mainScreen_to_informationScreen
@@ -3536,6 +3586,7 @@ id action_mainScreen_to_langScreen
 id action_mainScreen_to_neuroAssistantScreen
 id action_mainScreen_to_rakeScreen
 id action_mainScreen_to_secondTypeDiabetic
+id action_mainScreen_to_signInScreen
 id action_mainScreen_to_thirdScreen
 id action_menu_divider
 id action_menu_presenter
@@ -3559,6 +3610,8 @@ id actions
 id activity_chooser_view_content
 id activity_mock
 id add
+id adjust_height
+id adjust_width
 id alertTitle
 id aligned
 id all
@@ -3625,6 +3678,7 @@ id btnIndtructor
 id btnInfo
 id btnInsulin
 id btnLanguage
+id btnLogout
 id btnMain
 id btnMenu
 id btnN
@@ -3651,7 +3705,9 @@ id btnScore
 id btnScoreFirst
 id btnSecondType
 id btnSend
+id btnSendMessage
 id btnSignIn
+id btnSignInDoctor
 id btnSignUp
 id btnStart
 id btnTab1
@@ -3725,6 +3781,7 @@ id custom
 id customPanel
 id cut
 id dailyInsulinScreen
+id dark
 id date_picker_actions
 id decelerate
 id decelerateAndComplete
@@ -3737,6 +3794,8 @@ id design_menu_item_action_area
 id design_menu_item_action_area_stub
 id design_menu_item_text
 id design_navigation_view
+id detailChatScreen
+id detailsUserScreen2
 id diabetScreen
 id diabeticDetection
 id diabeticTreatment
@@ -3849,6 +3908,7 @@ id horizontal_only
 id host
 id icon
 id icon_group
+id icon_only
 id ifRoom
 id ignore
 id ignoreRequest
@@ -3879,6 +3939,7 @@ id informationScreen
 id inputFamilya
 id inputFatherName
 id inputMail
+id inputMessage
 id inputName
 id inputNumber
 id inputPassword
@@ -3894,6 +3955,7 @@ id item1
 id item2
 id item3
 id item4
+id itemMainCard
 id item_touch_helper_previous_elevation
 id ivIcon
 id ivRightIcon
@@ -3912,6 +3974,7 @@ id layout_scale_wheel
 id left
 id leftToRight
 id legacy
+id light
 id line1
 id line3
 id linear
@@ -3919,6 +3982,7 @@ id linear1
 id listMode
 id listRV
 id list_item
+id list_rv
 id llAlertBackground
 id llButtonContainer
 id loadingProgress
@@ -4294,11 +4358,14 @@ id txt4
 id txtDate
 id txtDescription
 id txtEn
+id txtMessage
 id txtName
 id txtParol
+id txtPersonal
 id txtRu
 id txtTab1
 id txtTab2
+id txtTime
 id txtTitle
 id txtUz
 id txt_item
@@ -4332,6 +4399,7 @@ id vw1
 id vw2
 id web
 id west
+id wide
 id withText
 id with_icon
 id withinBounds
@@ -4354,6 +4422,7 @@ integer config_navAnimTime
 integer config_tooltipAnimTime
 integer design_snackbar_text_max_lines
 integer design_tab_indicator_anim_duration_ms
+integer google_play_services_version
 integer hide_password_duration
 integer m3_btn_anim_delay_ms
 integer m3_btn_anim_duration_ms
@@ -4494,6 +4563,7 @@ layout dialog_result
 layout dialog_start_open
 layout dot_layout
 layout item
+layout item_chat
 layout item_info
 layout item_note
 layout layout_home
@@ -4571,6 +4641,8 @@ layout page_yellow
 layout screen_assistant
 layout screen_bread
 layout screen_caching
+layout screen_chat_detail
+layout screen_chat_user
 layout screen_dailyinsulin
 layout screen_delete
 layout screen_diabet
@@ -4618,6 +4690,7 @@ mipmap ic_launcher
 mipmap ic_launcher_round
 navigation nav_graph
 plurals mtrl_badge_content_description
+raw firebase_common_keep
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description
@@ -4737,6 +4810,24 @@ string chucker_url
 string chucker_version
 string chucker_yes
 string clear_text_end_icon_content_description
+string common_google_play_services_enable_button
+string common_google_play_services_enable_text
+string common_google_play_services_enable_title
+string common_google_play_services_install_button
+string common_google_play_services_install_text
+string common_google_play_services_install_title
+string common_google_play_services_notification_channel_name
+string common_google_play_services_notification_ticker
+string common_google_play_services_unknown_issue
+string common_google_play_services_unsupported_text
+string common_google_play_services_update_button
+string common_google_play_services_update_text
+string common_google_play_services_update_title
+string common_google_play_services_updating_text
+string common_google_play_services_wear_update_text
+string common_open_on_phone
+string common_signin_button_text
+string common_signin_button_text_long
 string contact_us
 string d1
 string d2
@@ -4857,6 +4948,11 @@ string food_yellow3_6
 string fordata
 string foydalanish2
 string foydalanish3
+string gcm_defaultSenderId
+string google_api_key
+string google_app_id
+string google_crash_reporting_api_key
+string google_storage_bucket
 string help
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
@@ -5009,6 +5105,7 @@ string path_password_strike_through
 string permission_camera_denied
 string permission_camera_extended_denied
 string permission_gallery_denied
+string project_id
 string register1_1
 string register1_2
 string register1_3
@@ -6285,6 +6382,7 @@ styleable LinearLayoutCompat android_gravity android_orientation android_baselin
 styleable LinearLayoutCompat_Layout android_layout_gravity android_layout_width android_layout_height android_layout_weight
 styleable LinearProgressIndicator indeterminateAnimationType indicatorDirectionLinear
 styleable ListPopupWindow android_dropDownHorizontalOffset android_dropDownVerticalOffset
+styleable LoadingImageView circleCrop imageAspectRatio imageAspectRatioAdjust
 styleable LottieAnimationView lottie_autoPlay lottie_cacheComposition lottie_clipToCompositionBounds lottie_colorFilter lottie_enableMergePathsForKitKatAndAbove lottie_fallbackRes lottie_fileName lottie_ignoreDisabledSystemAnimations lottie_imageAssetsFolder lottie_loop lottie_progress lottie_rawRes lottie_renderMode lottie_repeatCount lottie_repeatMode lottie_speed lottie_url
 styleable MaterialAlertDialog backgroundInsetBottom backgroundInsetEnd backgroundInsetStart backgroundInsetTop
 styleable MaterialAlertDialogTheme materialAlertDialogBodyTextStyle materialAlertDialogButtonSpacerVisibility materialAlertDialogTheme materialAlertDialogTitleIconStyle materialAlertDialogTitlePanelStyle materialAlertDialogTitleTextStyle
@@ -6345,6 +6443,7 @@ styleable SearchView android_textAppearance android_focusable android_maxWidth a
 styleable ShapeAppearance cornerFamily cornerFamilyBottomLeft cornerFamilyBottomRight cornerFamilyTopLeft cornerFamilyTopRight cornerSize cornerSizeBottomLeft cornerSizeBottomRight cornerSizeTopLeft cornerSizeTopRight
 styleable ShapeableImageView contentPadding contentPaddingBottom contentPaddingEnd contentPaddingLeft contentPaddingRight contentPaddingStart contentPaddingTop shapeAppearance shapeAppearanceOverlay strokeColor strokeWidth
 styleable SideSheetBehavior_Layout android_maxWidth android_maxHeight android_elevation backgroundTint behavior_draggable coplanarSiblingViewId shapeAppearance shapeAppearanceOverlay
+styleable SignInButton buttonSize colorScheme scopeUris
 styleable Slider android_enabled android_value android_stepSize android_valueFrom android_valueTo haloColor haloRadius labelBehavior labelStyle minTouchTargetSize thumbColor thumbElevation thumbRadius thumbStrokeColor thumbStrokeWidth tickColor tickColorActive tickColorInactive tickRadiusActive tickRadiusInactive tickVisible trackColor trackColorActive trackColorInactive trackHeight
 styleable SmoothBottomBar activeItem backgroundColor cornerRadius corners duration iconMargin iconSize iconTint iconTintActive indicatorColor indicatorRadius itemFontFamily itemPadding menu sideMargins textColor textSize
 styleable Snackbar snackbarButtonStyle snackbarStyle snackbarTextViewStyle

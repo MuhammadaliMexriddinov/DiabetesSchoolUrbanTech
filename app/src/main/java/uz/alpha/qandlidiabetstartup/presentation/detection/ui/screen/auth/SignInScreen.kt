@@ -13,6 +13,7 @@ import uz.alpha.qandlidiabetstartup.R
 import uz.alpha.qandlidiabetstartup.data.local.SharedPref
 import uz.alpha.qandlidiabetstartup.databinding.ScreenSignInBinding
 import uz.alpha.qandlidiabetstartup.presentation.detection.viewmodel.impl.SignInViewModelImpl
+import uz.alpha.qandlidiabetstartup.utils.CheckingKey
 
 class SignInScreen : Fragment(R.layout.screen_sign_in) {
 
@@ -51,17 +52,27 @@ class SignInScreen : Fragment(R.layout.screen_sign_in) {
 //                }
 //            }
 
-            btnSignIn.setOnClickListener {
-                if (txtParol.text.toString()=="doctor123"){
-                    findNavController().navigate(R.id.doctorMainScreen)
-                }
-                else if (txtParol.text.toString()=="user123"){
-                    findNavController().navigate(R.id.mainScreen)
-                }
-                else {
-                    val snackbar = Snackbar.make(txtParol,requireContext().getString(R.string.dialog_doctor), Snackbar.LENGTH_LONG)
-                    snackbar.show()
-                }
+//            btnSignIn.setOnClickListener {
+//                if (txtParol.text.toString()=="doctor123"){
+//                    findNavController().navigate(R.id.doctorMainScreen)
+//                }
+//                else if (txtParol.text.toString()=="user123"){
+//                    findNavController().navigate(R.id.mainScreen)
+//                }
+//                else {
+//                    val snackbar = Snackbar.make(txtParol,requireContext().getString(R.string.dialog_doctor), Snackbar.LENGTH_LONG)
+//                    snackbar.show()
+//                }
+//            }
+
+            btnSignIn.setOnClickListener{
+                CheckingKey.singlePerson = "sh"
+                findNavController().navigate(R.id.mainScreen)
+            }
+
+            btnSignInDoctor.setOnClickListener{
+                CheckingKey.singlePerson = "m"
+                findNavController().navigate(R.id.doctorMainScreen)
             }
         }
     }

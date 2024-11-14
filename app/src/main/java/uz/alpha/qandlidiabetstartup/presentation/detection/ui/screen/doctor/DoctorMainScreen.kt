@@ -2,7 +2,9 @@ package uz.alpha.qandlidiabetstartup.presentation.detection.ui.screen.doctor
 
 import android.os.Bundle
 import android.view.View
+import androidx.activity.addCallback
 import androidx.fragment.app.Fragment
+import androidx.navigation.fragment.findNavController
 import by.kirich1409.viewbindingdelegate.viewBinding
 import uz.alpha.qandlidiabetstartup.R
 import uz.alpha.qandlidiabetstartup.databinding.ScreenDoctorBinding
@@ -25,6 +27,10 @@ class DoctorMainScreen : Fragment(R.layout.screen_doctor) {
 
         if (savedInstanceState == null) {
             loadFragment(DoctorHomePage())
+        }
+
+        requireActivity().onBackPressedDispatcher.addCallback(viewLifecycleOwner) {
+            findNavController().navigate(R.id.signInScreen)
         }
     }
 

@@ -8,5 +8,11 @@ public class DoctorMainScreenDirections private constructor() {
   public companion object {
     public fun actionDoctorMainScreenToInformationScreen(): NavDirections =
         ActionOnlyNavDirections(R.id.action_doctorMainScreen_to_informationScreen)
+
+    public fun actionDoctorMainScreenToDetailChatScreen(): NavDirections =
+        ActionOnlyNavDirections(R.id.action_doctorMainScreen_to_detailChatScreen)
+
+    public fun actionDoctorMainScreenToSignInScreen(): NavDirections =
+        ActionOnlyNavDirections(R.id.action_doctorMainScreen_to_signInScreen)
   }
 }

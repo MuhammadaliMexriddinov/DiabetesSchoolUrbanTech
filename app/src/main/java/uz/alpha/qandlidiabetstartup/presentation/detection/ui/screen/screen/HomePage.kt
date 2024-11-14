@@ -39,6 +39,10 @@ class HomePage : Fragment(R.layout.layout_home) {
                 viewModel.selectPosition = "1"
                 updateTabUI(viewModel.selectPosition)
             }
+            btnLogout.setOnClickListener {
+                findNavController().navigate(R.id.signInScreen)
+            }
+
 
             pageMain.isUserInputEnabled = true
         }

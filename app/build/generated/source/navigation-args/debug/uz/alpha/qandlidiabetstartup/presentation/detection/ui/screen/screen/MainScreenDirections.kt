@@ -29,5 +29,14 @@ public class MainScreenDirections private constructor() {
 
     public fun actionMainScreenToSecondTypeDiabetic(): NavDirections =
         ActionOnlyNavDirections(R.id.action_mainScreen_to_secondTypeDiabetic)
+
+    public fun actionMainScreenToDetailChatScreen(): NavDirections =
+        ActionOnlyNavDirections(R.id.action_mainScreen_to_detailChatScreen)
+
+    public fun actionMainScreenToSignInScreen(): NavDirections =
+        ActionOnlyNavDirections(R.id.action_mainScreen_to_signInScreen)
+
+    public fun actionMainScreenToDetailsUserScreen2(): NavDirections =
+        ActionOnlyNavDirections(R.id.action_mainScreen_to_detailsUserScreen2)
   }
 }

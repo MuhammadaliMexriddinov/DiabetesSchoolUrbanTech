@@ -1,6 +1,7 @@
 package uz.alpha.qandlidiabetstartup.presentation.detection.ui.screen.screen
 
 import androidx.fragment.app.Fragment
+import androidx.navigation.fragment.findNavController
 import by.kirich1409.viewbindingdelegate.viewBinding
 import uz.alpha.qandlidiabetstartup.R
 import uz.alpha.qandlidiabetstartup.databinding.PageChatBinding
@@ -15,7 +16,9 @@ class ChatPage : Fragment(R.layout.page_chat) {
 
 
         binding.apply{
-
+            btn1.setOnClickListener {
+                findNavController().navigate(R.id.detailsUserScreen2)
+            }
         }
     }
 }

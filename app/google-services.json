@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "193924911944",
+    "project_id": "urbantechuzbekistan",
+    "storage_bucket": "urbantechuzbekistan.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:193924911944:android:d9b183b87a235d9fa1197d",
+        "android_client_info": {
+          "package_name": "uz.alpha.qandlidiabetstartup"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2plrxImuTalhEOc8MAxue-mEaF3O9up0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

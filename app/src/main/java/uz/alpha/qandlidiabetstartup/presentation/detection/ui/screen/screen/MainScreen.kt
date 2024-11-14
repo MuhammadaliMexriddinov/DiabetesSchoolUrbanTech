@@ -2,7 +2,9 @@ package uz.alpha.qandlidiabetstartup.presentation.detection.ui.screen.screen
 
 import android.os.Bundle
 import android.view.View
+import androidx.activity.addCallback
 import androidx.fragment.app.Fragment
+import androidx.navigation.fragment.findNavController
 import by.kirich1409.viewbindingdelegate.viewBinding
 import uz.alpha.qandlidiabetstartup.R
 import uz.alpha.qandlidiabetstartup.databinding.ScreenMainBinding
@@ -21,6 +23,10 @@ class MainScreen : Fragment(R.layout.screen_main) {
 
         if (savedInstanceState == null) {
             loadFragment(HomePage())
+        }
+
+        requireActivity().onBackPressedDispatcher.addCallback(viewLifecycleOwner) {
+            findNavController().navigate(R.id.signInScreen)
         }
     }
 

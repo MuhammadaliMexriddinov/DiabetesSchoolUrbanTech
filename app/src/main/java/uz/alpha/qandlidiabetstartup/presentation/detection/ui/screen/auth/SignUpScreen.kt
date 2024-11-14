@@ -38,7 +38,6 @@ class SignUpScreen : Fragment(R.layout.screen_sign_up) {
     }
 
     viewModel.succesSharedFlow.onEach {
-
             if (it.uniq_code.length == 7) {
                 findNavController().navigate(R.id.verifyScreen)
             }

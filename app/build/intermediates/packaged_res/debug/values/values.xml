@@ -171,6 +171,11 @@ DR skriningining barchasini qamrab olgan va avtomatlashtirilgan usuliga muhtojli
     <string name="fordata">Rasmni png yoki jpg ko`rinishida yuborishingiz kerak !</string>
     <string name="foydalanish2">Ushbu test  toliq tibbiy diagnostika hisoblanmaydi. Natijalar faqat malumot uchun taqdim etiladi va ular malakali shifokor tashxisi hisoblanmaydi.</string>
     <string name="foydalanish3">Malumotlaringiz xavfsizligi taminlanadi. Siz berayotgan malumotlar anonim va ular uchinchi shaxslarga taqdim etilmaydi.</string>
+    <string name="gcm_defaultSenderId" translatable="false">193924911944</string>
+    <string name="google_api_key" translatable="false">AIzaSyA2plrxImuTalhEOc8MAxue-mEaF3O9up0</string>
+    <string name="google_app_id" translatable="false">1:193924911944:android:d9b183b87a235d9fa1197d</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyA2plrxImuTalhEOc8MAxue-mEaF3O9up0</string>
+    <string name="google_storage_bucket" translatable="false">urbantechuzbekistan.firebasestorage.app</string>
     <string name="help"><![CDATA[Help & Feedback]]></string>
     <string name="info11">"Autizm haqida"</string>
     <string name="info_1">"Prediabet - bu II turdagi diabet xavfini ko'rsatadigan birinchi belgi. Bu sizning qon shakaringiz darajasi me'yordan yuqori ekanligini anglatadi. Ikkinchi turdagi diabetga tashxis qo'yilgan odamlarning ko'pchiligi erta diabetga tashxis qo'yilgan odamlardir. Ammo umidsizlikka va vahima qo'yishga shoshilmang, chunki turmush tarzini o'zgartirish, ovqatlanish va dori-darmonlar qondagi qand miqdorini normal holatga qaytarishga va diabet rivojlanishining oldini olishga yoki uning rivojlanishini sezilarli darajada kechiktirishga yordam beradi.
@@ -215,6 +220,7 @@ Qandli diabet (QD) - bu organizm yetarli miqdorda insulin ishlab chiqara olmagan
     <string name="manba">"Manba"</string>
     <string name="name">Ism</string>
     <string name="no">Yo`q</string>
+    <string name="project_id" translatable="false">urbantechuzbekistan</string>
     <string name="register1_1">"Doktor versiyasiga kirish uchun ismingiz va parolingizni kiriting"</string>
     <string name="register1_2">"Elektron Pochtangiz"</string>
     <string name="register1_3">"Parolingiz"</string>

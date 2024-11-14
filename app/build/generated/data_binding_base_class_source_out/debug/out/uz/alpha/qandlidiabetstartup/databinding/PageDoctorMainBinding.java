@@ -36,6 +36,9 @@ public final class PageDoctorMainBinding implements ViewBinding {
   public final ImageView btnLanguage;
 
   @NonNull
+  public final ImageView btnLogout;
+
+  @NonNull
   public final CircleImageView profileImage;
 
   @NonNull
@@ -46,14 +49,16 @@ public final class PageDoctorMainBinding implements ViewBinding {
 
   private PageDoctorMainBinding(@NonNull LinearLayout rootView, @NonNull LinearLayout btn1,
       @NonNull LinearLayout btn2, @NonNull LinearLayout btn3, @NonNull LinearLayout btnDiabeticFoot,
-      @NonNull ImageView btnLanguage, @NonNull CircleImageView profileImage,
-      @NonNull CircleImageView profileImage2, @NonNull CircleImageView profileImage3) {
+      @NonNull ImageView btnLanguage, @NonNull ImageView btnLogout,
+      @NonNull CircleImageView profileImage, @NonNull CircleImageView profileImage2,
+      @NonNull CircleImageView profileImage3) {
     this.rootView = rootView;
     this.btn1 = btn1;
     this.btn2 = btn2;
     this.btn3 = btn3;
     this.btnDiabeticFoot = btnDiabeticFoot;
     this.btnLanguage = btnLanguage;
+    this.btnLogout = btnLogout;
     this.profileImage = profileImage;
     this.profileImage2 = profileImage2;
     this.profileImage3 = profileImage3;
@@ -116,6 +121,12 @@ public final class PageDoctorMainBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.btnLogout;
+      ImageView btnLogout = ViewBindings.findChildViewById(rootView, id);
+      if (btnLogout == null) {
+        break missingId;
+      }
+
       id = R.id.profile_image;
       CircleImageView profileImage = ViewBindings.findChildViewById(rootView, id);
       if (profileImage == null) {
@@ -135,7 +146,7 @@ public final class PageDoctorMainBinding implements ViewBinding {
       }
 
       return new PageDoctorMainBinding((LinearLayout) rootView, btn1, btn2, btn3, btnDiabeticFoot,
-          btnLanguage, profileImage, profileImage2, profileImage3);
+          btnLanguage, btnLogout, profileImage, profileImage2, profileImage3);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
