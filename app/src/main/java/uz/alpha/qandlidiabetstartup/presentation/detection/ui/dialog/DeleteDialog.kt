@@ -15,10 +15,7 @@ import uz.alpha.qandlidiabetstartup.databinding.DialogResultBinding
 import uz.alpha.qandlidiabetstartup.databinding.ScreenDeleteBinding
 import uz.alpha.qandlidiabetstartup.utils.InfoData
 
-/**
-Mobile Developer
-Creator:Mekhriddinov Muhammadali
- */
+
 class DeleteDialog(ctx: Context) : Dialog(ctx){
 
     private lateinit var binding: ScreenDeleteBinding

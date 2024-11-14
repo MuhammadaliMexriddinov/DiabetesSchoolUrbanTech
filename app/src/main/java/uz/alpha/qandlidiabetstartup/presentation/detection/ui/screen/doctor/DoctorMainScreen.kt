@@ -1,16 +1,20 @@
-package uz.alpha.qandlidiabetstartup.presentation.detection.ui.screen.screen
+package uz.alpha.qandlidiabetstartup.presentation.detection.ui.screen.doctor
 
 import android.os.Bundle
 import android.view.View
 import androidx.fragment.app.Fragment
 import by.kirich1409.viewbindingdelegate.viewBinding
 import uz.alpha.qandlidiabetstartup.R
+import uz.alpha.qandlidiabetstartup.databinding.ScreenDoctorBinding
 import uz.alpha.qandlidiabetstartup.databinding.ScreenMainBinding
-import uz.alpha.qandlidiabetstartup.presentation.detection.ui.screen.doctor.DoctorChatPage
+import uz.alpha.qandlidiabetstartup.presentation.detection.ui.screen.screen.CachingPage
+import uz.alpha.qandlidiabetstartup.presentation.detection.ui.screen.screen.HomePage
+import uz.alpha.qandlidiabetstartup.presentation.detection.ui.screen.screen.InformationScreen
+import uz.alpha.qandlidiabetstartup.presentation.detection.ui.screen.screen.OthersPage
 
-class MainScreen : Fragment(R.layout.screen_main) {
+class DoctorMainScreen : Fragment(R.layout.screen_doctor) {
 
-    private  val binding by viewBinding(ScreenMainBinding::bind)
+    private  val binding by viewBinding(ScreenDoctorBinding::bind)
 
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
@@ -20,19 +24,17 @@ class MainScreen : Fragment(R.layout.screen_main) {
         setupSmoothBottomBar()
 
         if (savedInstanceState == null) {
-            loadFragment(HomePage())
+            loadFragment(DoctorHomePage())
         }
     }
 
     private fun setupSmoothBottomBar() {
         binding.bottomBar.onItemSelected = { position ->
             val fragment = when (position) {
-                0 -> HomePage()
-                1 -> CachingPage()
-                2 -> InformationScreen()
-                3-> ChatPage()
-                4 -> OthersPage()
-                else -> HomePage()
+                0 -> DoctorHomePage()
+                1 -> DoctorChatPage()
+                2 -> OthersPage()
+                else -> DoctorHomePage()
             }
             loadFragment(fragment)
         }

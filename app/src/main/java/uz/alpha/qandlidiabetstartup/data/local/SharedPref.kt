@@ -6,10 +6,6 @@ import uz.alpha.qandlidiabetstartup.app.App
 import java.util.UUID
 
 
-/**
-Mobile Developer
-Creator:Mekhriddinov Muhammadali
- */
 class SharedPref private constructor() {
 
     private val preferences: SharedPreferences =

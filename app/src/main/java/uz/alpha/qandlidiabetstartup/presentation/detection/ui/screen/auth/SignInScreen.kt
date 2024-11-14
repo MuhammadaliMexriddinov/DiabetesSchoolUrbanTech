@@ -25,7 +25,7 @@ class SignInScreen : Fragment(R.layout.screen_sign_in) {
         requireActivity().window.statusBarColor = ContextCompat.getColor(requireContext(), R.color.color1)
 
         binding.apply {
-             btnSignIn.setOnClickListener {
+             btnNext.setOnClickListener {
                  findNavController().navigate(R.id.mainScreen)
              }
             btnSignUp.setOnClickListener {
@@ -39,11 +39,24 @@ class SignInScreen : Fragment(R.layout.screen_sign_in) {
 
 
         binding.apply {
-            btnNext.setOnClickListener {
-                if (txtName.text.toString().isNotEmpty() && txtParol.text.toString().endsWith("@gmail.com")){
-                    if (uuid != null) {
-                        viewModelSignIn.sendData(uuid, txtName.text.toString(), txtParol.text.toString(), "hai2023")
-                    }
+//            btnSignIn.setOnClickListener {
+//                if (txtName.text.toString().isNotEmpty() && txtParol.text.toString().endsWith("@gmail.com")){
+//                    if (uuid != null) {
+//                        viewModelSignIn.sendData(uuid, txtName.text.toString(), txtParol.text.toString(), "hai2023")
+//                    }
+//                }
+//                else {
+//                    val snackbar = Snackbar.make(txtParol,requireContext().getString(R.string.dialog_doctor), Snackbar.LENGTH_LONG)
+//                    snackbar.show()
+//                }
+//            }
+
+            btnSignIn.setOnClickListener {
+                if (txtParol.text.toString()=="doctor123"){
+                    findNavController().navigate(R.id.doctorMainScreen)
+                }
+                else if (txtParol.text.toString()=="user123"){
+                    findNavController().navigate(R.id.mainScreen)
                 }
                 else {
                     val snackbar = Snackbar.make(txtParol,requireContext().getString(R.string.dialog_doctor), Snackbar.LENGTH_LONG)

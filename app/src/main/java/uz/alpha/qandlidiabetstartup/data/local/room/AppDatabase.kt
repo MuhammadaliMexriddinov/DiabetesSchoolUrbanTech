@@ -5,10 +5,7 @@ import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
 
-/**
-Mobile Developer
-Creator:Mekhriddinov Muhammadali
- */
+
 @Database(entities = [DiseaseEntity::class], version = 4)
 abstract class AppDatabase : RoomDatabase() {
 

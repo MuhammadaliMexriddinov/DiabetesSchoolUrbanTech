@@ -81,6 +81,9 @@
         <action
             android:id="@+id/action_signInScreen_to_mainScreen"
             app:destination="@id/mainScreen" />
+        <action
+            android:id="@+id/action_signInScreen_to_doctorMainScreen"
+            app:destination="@id/doctorMainScreen" />
     </fragment>
     <fragment
         tools:layout="@layout/screen_sign_up"
@@ -180,5 +183,13 @@
         android:id="@+id/secondTypeDiabetic"
         android:name="uz.alpha.qandlidiabetstartup.presentation.detection.ui.screen.pages.school.type.SecondTypeDiabetic"
         android:label="SecondTypeDiabetic" />
+    <fragment
+        android:id="@+id/doctorMainScreen"
+        android:name="uz.alpha.qandlidiabetstartup.presentation.detection.ui.screen.doctor.DoctorMainScreen"
+        android:label="DoctorMainScreen" >
+        <action
+            android:id="@+id/action_doctorMainScreen_to_informationScreen"
+            app:destination="@id/informationScreen" />
+    </fragment>
 
 </navigation>
