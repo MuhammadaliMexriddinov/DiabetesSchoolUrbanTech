@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "uz.alpha.qandlidiabetstartup.app-mergeDebugResources-64:/values-small-v4/values-small-v4.xml",
+            "map": [
+                {
+                    "source": "/Users/itvstmtpti/.gradle/caches/transforms-3/2ac06fd9f132be554e724d8e28527656/transformed/material-1.9.0/res/values-small-v4/values-small-v4.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,128,198,270",
+                        "endColumns": "72,69,71,69",
+                        "endOffsets": "123,193,265,335"
+                    }
+                }
+            ]
+        }
+    ]
+}

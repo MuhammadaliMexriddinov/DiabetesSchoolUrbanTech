@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chat"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginTop="12dp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/roboto_flex"/>
+
+    <LinearLayout
+        app:layout_constraintTop_toBottomOf="@id/txtTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="56dp"
+        android:layout_marginHorizontal="12dp"
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:id="@+id/btn1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:background="@drawable/rectangular"
+                android:layout_weight="1">
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/profile_image"
+                    android:layout_width="126dp"
+                    android:layout_height="138dp"
+                    android:src="@drawable/doctor7"
+                    app:civ_border_color="#FF000000"
+                    app:civ_border_width="2dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Dr.Muxiddinova"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:layout_marginBottom="12dp"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/btn2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:background="@drawable/rectangular"
+                android:layout_weight="1">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/profile_image2"
+                    android:layout_width="126dp"
+                    android:layout_height="126dp"
+                    android:src="@drawable/doctor2"
+                    app:civ_border_color="#FF000000"
+                    app:civ_border_width="2dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Dr.Akramov"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:layout_marginBottom="12dp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+            <LinearLayout
+                android:id="@+id/btn3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:background="@drawable/rectangular"
+                android:layout_weight="1">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/profile_image3"
+                    android:layout_width="126dp"
+                    android:layout_height="126dp"
+                    android:src="@drawable/doctor3"
+                    app:civ_border_color="#FF000000"
+                    app:civ_border_width="2dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Dr.Azizov"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:layout_marginBottom="12dp"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/btn4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:background="@drawable/rectangular"
+                android:layout_weight="1">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/profile_image4"
+                    android:layout_width="126dp"
+                    android:layout_height="126dp"
+                    android:src="@drawable/doctor4"
+                    app:civ_border_color="#FF000000"
+                    app:civ_border_width="2dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Dr.Bakhriddinov"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:layout_marginBottom="12dp"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+            <LinearLayout
+                android:id="@+id/btn5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:background="@drawable/rectangular"
+                android:layout_weight="1">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/profile_image5"
+                    android:layout_width="126dp"
+                    android:layout_height="126dp"
+                    android:src="@drawable/doctor5"
+                    app:civ_border_color="#FF000000"
+                    app:civ_border_width="2dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Dr.Ali"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:layout_marginBottom="12dp"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/btn6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:background="@drawable/rectangular"
+                android:layout_weight="1">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/profile_image6"
+                    android:layout_width="126dp"
+                    android:layout_height="126dp"
+                    android:src="@drawable/doctor6"
+                    app:civ_border_color="#FF000000"
+                    app:civ_border_width="2dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Dr.Lana"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:layout_marginBottom="12dp"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

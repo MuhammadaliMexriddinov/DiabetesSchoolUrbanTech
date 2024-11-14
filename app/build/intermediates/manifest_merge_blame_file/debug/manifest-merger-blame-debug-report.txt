@@ -1,0 +1,338 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="uz.alpha.qandlidiabetstartup"
+4    android:versionCode="12"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->/Users/itvstmtpti/Documents/ANDROID OS/DIABET-Mobil-in-3-day-StartUp-/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="34" />
+9-->/Users/itvstmtpti/Documents/ANDROID OS/DIABET-Mobil-in-3-day-StartUp-/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+11-->/Users/itvstmtpti/Documents/ANDROID OS/DIABET-Mobil-in-3-day-StartUp-/app/src/main/AndroidManifest.xml:5:5-79
+11-->/Users/itvstmtpti/Documents/ANDROID OS/DIABET-Mobil-in-3-day-StartUp-/app/src/main/AndroidManifest.xml:5:22-76
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/itvstmtpti/Documents/ANDROID OS/DIABET-Mobil-in-3-day-StartUp-/app/src/main/AndroidManifest.xml:6:5-67
+12-->/Users/itvstmtpti/Documents/ANDROID OS/DIABET-Mobil-in-3-day-StartUp-/app/src/main/AndroidManifest.xml:6:22-64
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->/Users/itvstmtpti/Documents/ANDROID OS/DIABET-Mobil-in-3-day-StartUp-/app/src/main/AndroidManifest.xml:7:5-76
+13-->/Users/itvstmtpti/Documents/ANDROID OS/DIABET-Mobil-in-3-day-StartUp-/app/src/main/AndroidManifest.xml:7:22-73
+14    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+14-->/Users/itvstmtpti/Documents/ANDROID OS/DIABET-Mobil-in-3-day-StartUp-/app/src/main/AndroidManifest.xml:8:5-77
+14-->/Users/itvstmtpti/Documents/ANDROID OS/DIABET-Mobil-in-3-day-StartUp-/app/src/main/AndroidManifest.xml:8:22-74
+15    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+15-->/Users/itvstmtpti/Documents/ANDROID OS/DIABET-Mobil-in-3-day-StartUp-/app/src/main/AndroidManifest.xml:9:5-72
+15-->/Users/itvstmtpti/Documents/ANDROID OS/DIABET-Mobil-in-3-day-StartUp-/app/src/main/AndroidManifest.xml:9:22-69
+16
+17    <queries>
+17-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/itvstmtpti/.gradle/caches/transforms-3/7ba65e5bb50647a94f8fc3fa1505f1d4/transformed/jetified-library-4.0.0/AndroidManifest.xml:7:5-13:15
+18        <intent>
+18-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/itvstmtpti/.gradle/caches/transforms-3/7ba65e5bb50647a94f8fc3fa1505f1d4/transformed/jetified-library-4.0.0/AndroidManifest.xml:8:9-12:18
+19            <action android:name="android.intent.action.CREATE_DOCUMENT" />
+19-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/itvstmtpti/.gradle/caches/transforms-3/7ba65e5bb50647a94f8fc3fa1505f1d4/transformed/jetified-library-4.0.0/AndroidManifest.xml:9:13-76
+19-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/itvstmtpti/.gradle/caches/transforms-3/7ba65e5bb50647a94f8fc3fa1505f1d4/transformed/jetified-library-4.0.0/AndroidManifest.xml:9:21-73
+20
+21            <data android:mimeType="*/*" />
+21-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/itvstmtpti/.gradle/caches/transforms-3/7ba65e5bb50647a94f8fc3fa1505f1d4/transformed/jetified-library-4.0.0/AndroidManifest.xml:11:13-44
+21-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/itvstmtpti/.gradle/caches/transforms-3/7ba65e5bb50647a94f8fc3fa1505f1d4/transformed/jetified-library-4.0.0/AndroidManifest.xml:11:19-41
+22        </intent>
+23        <!-- Gallery -->
+24        <intent>
+24-->[com.github.Drjacky:ImagePicker:2.1.16] /Users/itvstmtpti/.gradle/caches/transforms-3/ba0cfa97601bac53258e41daf52cba2e/transformed/jetified-ImagePicker-2.1.16/AndroidManifest.xml:17:9-23:18
+25            <action android:name="android.intent.action.GET_CONTENT" />
+25-->[com.github.Drjacky:ImagePicker:2.1.16] /Users/itvstmtpti/.gradle/caches/transforms-3/ba0cfa97601bac53258e41daf52cba2e/transformed/jetified-ImagePicker-2.1.16/AndroidManifest.xml:18:13-72
+25-->[com.github.Drjacky:ImagePicker:2.1.16] /Users/itvstmtpti/.gradle/caches/transforms-3/ba0cfa97601bac53258e41daf52cba2e/transformed/jetified-ImagePicker-2.1.16/AndroidManifest.xml:18:21-69
+26
+27            <category android:name="android.intent.category.OPENABLE" />
+27-->[com.github.Drjacky:ImagePicker:2.1.16] /Users/itvstmtpti/.gradle/caches/transforms-3/ba0cfa97601bac53258e41daf52cba2e/transformed/jetified-ImagePicker-2.1.16/AndroidManifest.xml:20:13-73
+27-->[com.github.Drjacky:ImagePicker:2.1.16] /Users/itvstmtpti/.gradle/caches/transforms-3/ba0cfa97601bac53258e41daf52cba2e/transformed/jetified-ImagePicker-2.1.16/AndroidManifest.xml:20:23-70
+28
+29            <data android:mimeType="image/*" />
+29-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/itvstmtpti/.gradle/caches/transforms-3/7ba65e5bb50647a94f8fc3fa1505f1d4/transformed/jetified-library-4.0.0/AndroidManifest.xml:11:13-44
+29-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/itvstmtpti/.gradle/caches/transforms-3/7ba65e5bb50647a94f8fc3fa1505f1d4/transformed/jetified-library-4.0.0/AndroidManifest.xml:11:19-41
+30        </intent>
+31        <intent>
+31-->[com.github.Drjacky:ImagePicker:2.1.16] /Users/itvstmtpti/.gradle/caches/transforms-3/ba0cfa97601bac53258e41daf52cba2e/transformed/jetified-ImagePicker-2.1.16/AndroidManifest.xml:24:9-28:18
+32            <action android:name="android.intent.action.PICK" />
+32-->[com.github.Drjacky:ImagePicker:2.1.16] /Users/itvstmtpti/.gradle/caches/transforms-3/ba0cfa97601bac53258e41daf52cba2e/transformed/jetified-ImagePicker-2.1.16/AndroidManifest.xml:25:13-65
+32-->[com.github.Drjacky:ImagePicker:2.1.16] /Users/itvstmtpti/.gradle/caches/transforms-3/ba0cfa97601bac53258e41daf52cba2e/transformed/jetified-ImagePicker-2.1.16/AndroidManifest.xml:25:21-62
+33
+34            <data android:mimeType="image/*" />
+34-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/itvstmtpti/.gradle/caches/transforms-3/7ba65e5bb50647a94f8fc3fa1505f1d4/transformed/jetified-library-4.0.0/AndroidManifest.xml:11:13-44
+34-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/itvstmtpti/.gradle/caches/transforms-3/7ba65e5bb50647a94f8fc3fa1505f1d4/transformed/jetified-library-4.0.0/AndroidManifest.xml:11:19-41
+35        </intent>
+36        <intent>
+36-->[com.github.Drjacky:ImagePicker:2.1.16] /Users/itvstmtpti/.gradle/caches/transforms-3/ba0cfa97601bac53258e41daf52cba2e/transformed/jetified-ImagePicker-2.1.16/AndroidManifest.xml:29:9-31:18
+37            <action android:name="android.intent.action.CHOOSER" />
+37-->[com.github.Drjacky:ImagePicker:2.1.16] /Users/itvstmtpti/.gradle/caches/transforms-3/ba0cfa97601bac53258e41daf52cba2e/transformed/jetified-ImagePicker-2.1.16/AndroidManifest.xml:30:13-68
+37-->[com.github.Drjacky:ImagePicker:2.1.16] /Users/itvstmtpti/.gradle/caches/transforms-3/ba0cfa97601bac53258e41daf52cba2e/transformed/jetified-ImagePicker-2.1.16/AndroidManifest.xml:30:21-65
+38        </intent> <!-- Camera -->
+39        <intent>
+39-->[com.github.Drjacky:ImagePicker:2.1.16] /Users/itvstmtpti/.gradle/caches/transforms-3/ba0cfa97601bac53258e41daf52cba2e/transformed/jetified-ImagePicker-2.1.16/AndroidManifest.xml:33:9-35:18
+40            <action android:name="android.media.action.IMAGE_CAPTURE" />
+40-->[com.github.Drjacky:ImagePicker:2.1.16] /Users/itvstmtpti/.gradle/caches/transforms-3/ba0cfa97601bac53258e41daf52cba2e/transformed/jetified-ImagePicker-2.1.16/AndroidManifest.xml:34:13-73
+40-->[com.github.Drjacky:ImagePicker:2.1.16] /Users/itvstmtpti/.gradle/caches/transforms-3/ba0cfa97601bac53258e41daf52cba2e/transformed/jetified-ImagePicker-2.1.16/AndroidManifest.xml:34:21-70
+41        </intent>
+42    </queries>
+43
+44    <uses-permission
+44-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/itvstmtpti/.gradle/caches/transforms-3/7ba65e5bb50647a94f8fc3fa1505f1d4/transformed/jetified-library-4.0.0/AndroidManifest.xml:15:5-17:38
+45        android:name="android.permission.WAKE_LOCK"
+45-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/itvstmtpti/.gradle/caches/transforms-3/7ba65e5bb50647a94f8fc3fa1505f1d4/transformed/jetified-library-4.0.0/AndroidManifest.xml:16:9-52
+46        android:maxSdkVersion="25" />
+46-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/itvstmtpti/.gradle/caches/transforms-3/7ba65e5bb50647a94f8fc3fa1505f1d4/transformed/jetified-library-4.0.0/AndroidManifest.xml:17:9-35
+47    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+47-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/itvstmtpti/.gradle/caches/transforms-3/7ba65e5bb50647a94f8fc3fa1505f1d4/transformed/jetified-library-4.0.0/AndroidManifest.xml:18:5-77
+47-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/itvstmtpti/.gradle/caches/transforms-3/7ba65e5bb50647a94f8fc3fa1505f1d4/transformed/jetified-library-4.0.0/AndroidManifest.xml:18:22-74
+48    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+48-->[com.github.Drjacky:ImagePicker:2.1.16] /Users/itvstmtpti/.gradle/caches/transforms-3/ba0cfa97601bac53258e41daf52cba2e/transformed/jetified-ImagePicker-2.1.16/AndroidManifest.xml:9:5-80
+48-->[com.github.Drjacky:ImagePicker:2.1.16] /Users/itvstmtpti/.gradle/caches/transforms-3/ba0cfa97601bac53258e41daf52cba2e/transformed/jetified-ImagePicker-2.1.16/AndroidManifest.xml:9:22-77
+49    <uses-permission
+49-->[com.github.Drjacky:ImagePicker:2.1.16] /Users/itvstmtpti/.gradle/caches/transforms-3/ba0cfa97601bac53258e41daf52cba2e/transformed/jetified-ImagePicker-2.1.16/AndroidManifest.xml:10:5-12:38
+50        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+50-->[com.github.Drjacky:ImagePicker:2.1.16] /Users/itvstmtpti/.gradle/caches/transforms-3/ba0cfa97601bac53258e41daf52cba2e/transformed/jetified-ImagePicker-2.1.16/AndroidManifest.xml:11:9-65
+51        android:maxSdkVersion="28" />
+51-->[com.github.Drjacky:ImagePicker:2.1.16] /Users/itvstmtpti/.gradle/caches/transforms-3/ba0cfa97601bac53258e41daf52cba2e/transformed/jetified-ImagePicker-2.1.16/AndroidManifest.xml:12:9-35
+52
+53    <permission
+53-->[androidx.core:core:1.10.1] /Users/itvstmtpti/.gradle/caches/transforms-3/31562c6c5575a485cc06ee8b1f265883/transformed/core-1.10.1/AndroidManifest.xml:22:5-24:47
+54        android:name="uz.alpha.qandlidiabetstartup.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+54-->[androidx.core:core:1.10.1] /Users/itvstmtpti/.gradle/caches/transforms-3/31562c6c5575a485cc06ee8b1f265883/transformed/core-1.10.1/AndroidManifest.xml:23:9-81
+55        android:protectionLevel="signature" />
+55-->[androidx.core:core:1.10.1] /Users/itvstmtpti/.gradle/caches/transforms-3/31562c6c5575a485cc06ee8b1f265883/transformed/core-1.10.1/AndroidManifest.xml:24:9-44
+56
+57    <uses-permission android:name="uz.alpha.qandlidiabetstartup.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+57-->[androidx.core:core:1.10.1] /Users/itvstmtpti/.gradle/caches/transforms-3/31562c6c5575a485cc06ee8b1f265883/transformed/core-1.10.1/AndroidManifest.xml:26:5-97
+57-->[androidx.core:core:1.10.1] /Users/itvstmtpti/.gradle/caches/transforms-3/31562c6c5575a485cc06ee8b1f265883/transformed/core-1.10.1/AndroidManifest.xml:26:22-94
+58
+59    <application
+59-->/Users/itvstmtpti/Documents/ANDROID OS/DIABET-Mobil-in-3-day-StartUp-/app/src/main/AndroidManifest.xml:12:5-35:19
+60        android:name="uz.alpha.qandlidiabetstartup.app.App"
+60-->/Users/itvstmtpti/Documents/ANDROID OS/DIABET-Mobil-in-3-day-StartUp-/app/src/main/AndroidManifest.xml:13:9-32
+61        android:allowBackup="true"
+61-->/Users/itvstmtpti/Documents/ANDROID OS/DIABET-Mobil-in-3-day-StartUp-/app/src/main/AndroidManifest.xml:15:9-35
+62        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+62-->[androidx.core:core:1.10.1] /Users/itvstmtpti/.gradle/caches/transforms-3/31562c6c5575a485cc06ee8b1f265883/transformed/core-1.10.1/AndroidManifest.xml:28:18-86
+63        android:dataExtractionRules="@xml/data_extraction_rules"
+63-->/Users/itvstmtpti/Documents/ANDROID OS/DIABET-Mobil-in-3-day-StartUp-/app/src/main/AndroidManifest.xml:16:9-65
+64        android:debuggable="true"
+65        android:extractNativeLibs="false"
+66        android:fullBackupContent="@xml/backup_rules"
+66-->/Users/itvstmtpti/Documents/ANDROID OS/DIABET-Mobil-in-3-day-StartUp-/app/src/main/AndroidManifest.xml:17:9-54
+67        android:icon="@drawable/appcion"
+67-->/Users/itvstmtpti/Documents/ANDROID OS/DIABET-Mobil-in-3-day-StartUp-/app/src/main/AndroidManifest.xml:18:9-41
+68        android:label="@string/app_name"
+68-->/Users/itvstmtpti/Documents/ANDROID OS/DIABET-Mobil-in-3-day-StartUp-/app/src/main/AndroidManifest.xml:19:9-41
+69        android:supportsRtl="true"
+69-->/Users/itvstmtpti/Documents/ANDROID OS/DIABET-Mobil-in-3-day-StartUp-/app/src/main/AndroidManifest.xml:20:9-35
+70        android:testOnly="true"
+71        android:theme="@style/Theme.QandliDiabetStartUp"
+71-->/Users/itvstmtpti/Documents/ANDROID OS/DIABET-Mobil-in-3-day-StartUp-/app/src/main/AndroidManifest.xml:21:9-57
+72        android:usesCleartextTraffic="true" >
+72-->/Users/itvstmtpti/Documents/ANDROID OS/DIABET-Mobil-in-3-day-StartUp-/app/src/main/AndroidManifest.xml:14:9-44
+73        <activity
+73-->/Users/itvstmtpti/Documents/ANDROID OS/DIABET-Mobil-in-3-day-StartUp-/app/src/main/AndroidManifest.xml:23:9-31:20
+74            android:name="uz.alpha.qandlidiabetstartup.MainActivity"
+74-->/Users/itvstmtpti/Documents/ANDROID OS/DIABET-Mobil-in-3-day-StartUp-/app/src/main/AndroidManifest.xml:24:13-41
+75            android:exported="true" >
+75-->/Users/itvstmtpti/Documents/ANDROID OS/DIABET-Mobil-in-3-day-StartUp-/app/src/main/AndroidManifest.xml:25:13-36
+76            <intent-filter>
+76-->/Users/itvstmtpti/Documents/ANDROID OS/DIABET-Mobil-in-3-day-StartUp-/app/src/main/AndroidManifest.xml:26:13-30:29
+77                <action android:name="android.intent.action.MAIN" />
+77-->/Users/itvstmtpti/Documents/ANDROID OS/DIABET-Mobil-in-3-day-StartUp-/app/src/main/AndroidManifest.xml:27:17-69
+77-->/Users/itvstmtpti/Documents/ANDROID OS/DIABET-Mobil-in-3-day-StartUp-/app/src/main/AndroidManifest.xml:27:25-66
+78
+79                <category android:name="android.intent.category.LAUNCHER" />
+79-->/Users/itvstmtpti/Documents/ANDROID OS/DIABET-Mobil-in-3-day-StartUp-/app/src/main/AndroidManifest.xml:29:17-77
+79-->/Users/itvstmtpti/Documents/ANDROID OS/DIABET-Mobil-in-3-day-StartUp-/app/src/main/AndroidManifest.xml:29:27-74
+80            </intent-filter>
+81        </activity>
+82
+83        <meta-data
+83-->/Users/itvstmtpti/Documents/ANDROID OS/DIABET-Mobil-in-3-day-StartUp-/app/src/main/AndroidManifest.xml:32:9-34:57
+84            android:name="preloaded_fonts"
+84-->/Users/itvstmtpti/Documents/ANDROID OS/DIABET-Mobil-in-3-day-StartUp-/app/src/main/AndroidManifest.xml:33:13-43
+85            android:resource="@array/preloaded_fonts" />
+85-->/Users/itvstmtpti/Documents/ANDROID OS/DIABET-Mobil-in-3-day-StartUp-/app/src/main/AndroidManifest.xml:34:13-54
+86
+87        <activity
+87-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/itvstmtpti/.gradle/caches/transforms-3/7ba65e5bb50647a94f8fc3fa1505f1d4/transformed/jetified-library-4.0.0/AndroidManifest.xml:21:9-26:52
+88            android:name="com.chuckerteam.chucker.internal.ui.MainActivity"
+88-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/itvstmtpti/.gradle/caches/transforms-3/7ba65e5bb50647a94f8fc3fa1505f1d4/transformed/jetified-library-4.0.0/AndroidManifest.xml:22:13-76
+89            android:label="@string/chucker_name"
+89-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/itvstmtpti/.gradle/caches/transforms-3/7ba65e5bb50647a94f8fc3fa1505f1d4/transformed/jetified-library-4.0.0/AndroidManifest.xml:23:13-49
+90            android:launchMode="singleTask"
+90-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/itvstmtpti/.gradle/caches/transforms-3/7ba65e5bb50647a94f8fc3fa1505f1d4/transformed/jetified-library-4.0.0/AndroidManifest.xml:24:13-44
+91            android:taskAffinity="com.chuckerteam.chucker.task"
+91-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/itvstmtpti/.gradle/caches/transforms-3/7ba65e5bb50647a94f8fc3fa1505f1d4/transformed/jetified-library-4.0.0/AndroidManifest.xml:25:13-64
+92            android:theme="@style/Chucker.Theme" />
+92-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/itvstmtpti/.gradle/caches/transforms-3/7ba65e5bb50647a94f8fc3fa1505f1d4/transformed/jetified-library-4.0.0/AndroidManifest.xml:26:13-49
+93        <activity
+93-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/itvstmtpti/.gradle/caches/transforms-3/7ba65e5bb50647a94f8fc3fa1505f1d4/transformed/jetified-library-4.0.0/AndroidManifest.xml:27:9-30:52
+94            android:name="com.chuckerteam.chucker.internal.ui.transaction.TransactionActivity"
+94-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/itvstmtpti/.gradle/caches/transforms-3/7ba65e5bb50647a94f8fc3fa1505f1d4/transformed/jetified-library-4.0.0/AndroidManifest.xml:28:13-95
+95            android:parentActivityName="com.chuckerteam.chucker.internal.ui.MainActivity"
+95-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/itvstmtpti/.gradle/caches/transforms-3/7ba65e5bb50647a94f8fc3fa1505f1d4/transformed/jetified-library-4.0.0/AndroidManifest.xml:29:13-90
+96            android:theme="@style/Chucker.Theme" />
+96-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/itvstmtpti/.gradle/caches/transforms-3/7ba65e5bb50647a94f8fc3fa1505f1d4/transformed/jetified-library-4.0.0/AndroidManifest.xml:30:13-49
+97
+98        <service
+98-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/itvstmtpti/.gradle/caches/transforms-3/7ba65e5bb50647a94f8fc3fa1505f1d4/transformed/jetified-library-4.0.0/AndroidManifest.xml:32:9-35:72
+99            android:name="com.chuckerteam.chucker.internal.support.ClearDatabaseService"
+99-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/itvstmtpti/.gradle/caches/transforms-3/7ba65e5bb50647a94f8fc3fa1505f1d4/transformed/jetified-library-4.0.0/AndroidManifest.xml:33:13-89
+100            android:exported="false"
+100-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/itvstmtpti/.gradle/caches/transforms-3/7ba65e5bb50647a94f8fc3fa1505f1d4/transformed/jetified-library-4.0.0/AndroidManifest.xml:34:13-37
+101            android:permission="android.permission.BIND_JOB_SERVICE" />
+101-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/itvstmtpti/.gradle/caches/transforms-3/7ba65e5bb50647a94f8fc3fa1505f1d4/transformed/jetified-library-4.0.0/AndroidManifest.xml:35:13-69
+102
+103        <receiver
+103-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/itvstmtpti/.gradle/caches/transforms-3/7ba65e5bb50647a94f8fc3fa1505f1d4/transformed/jetified-library-4.0.0/AndroidManifest.xml:37:9-39:40
+104            android:name="com.chuckerteam.chucker.internal.support.ClearDatabaseJobIntentServiceReceiver"
+104-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/itvstmtpti/.gradle/caches/transforms-3/7ba65e5bb50647a94f8fc3fa1505f1d4/transformed/jetified-library-4.0.0/AndroidManifest.xml:38:13-106
+105            android:exported="false" />
+105-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/itvstmtpti/.gradle/caches/transforms-3/7ba65e5bb50647a94f8fc3fa1505f1d4/transformed/jetified-library-4.0.0/AndroidManifest.xml:39:13-37
+106
+107        <provider
+107-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/itvstmtpti/.gradle/caches/transforms-3/7ba65e5bb50647a94f8fc3fa1505f1d4/transformed/jetified-library-4.0.0/AndroidManifest.xml:41:9-49:20
+108            android:name="com.chuckerteam.chucker.internal.support.ChuckerFileProvider"
+108-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/itvstmtpti/.gradle/caches/transforms-3/7ba65e5bb50647a94f8fc3fa1505f1d4/transformed/jetified-library-4.0.0/AndroidManifest.xml:42:13-88
+109            android:authorities="uz.alpha.qandlidiabetstartup.com.chuckerteam.chucker.provider"
+109-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/itvstmtpti/.gradle/caches/transforms-3/7ba65e5bb50647a94f8fc3fa1505f1d4/transformed/jetified-library-4.0.0/AndroidManifest.xml:43:13-84
+110            android:exported="false"
+110-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/itvstmtpti/.gradle/caches/transforms-3/7ba65e5bb50647a94f8fc3fa1505f1d4/transformed/jetified-library-4.0.0/AndroidManifest.xml:44:13-37
+111            android:grantUriPermissions="true" >
+111-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/itvstmtpti/.gradle/caches/transforms-3/7ba65e5bb50647a94f8fc3fa1505f1d4/transformed/jetified-library-4.0.0/AndroidManifest.xml:45:13-47
+112            <meta-data
+112-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/itvstmtpti/.gradle/caches/transforms-3/7ba65e5bb50647a94f8fc3fa1505f1d4/transformed/jetified-library-4.0.0/AndroidManifest.xml:46:13-48:66
+113                android:name="android.support.FILE_PROVIDER_PATHS"
+113-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/itvstmtpti/.gradle/caches/transforms-3/7ba65e5bb50647a94f8fc3fa1505f1d4/transformed/jetified-library-4.0.0/AndroidManifest.xml:47:17-67
+114                android:resource="@xml/chucker_provider_paths" />
+114-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/itvstmtpti/.gradle/caches/transforms-3/7ba65e5bb50647a94f8fc3fa1505f1d4/transformed/jetified-library-4.0.0/AndroidManifest.xml:48:17-63
+115        </provider>
+116
+117        <activity
+117-->[com.github.Drjacky:ImagePicker:2.1.16] /Users/itvstmtpti/.gradle/caches/transforms-3/ba0cfa97601bac53258e41daf52cba2e/transformed/jetified-ImagePicker-2.1.16/AndroidManifest.xml:39:9-42:68
+118            android:name="com.github.drjacky.imagepicker.ImagePickerActivity"
+118-->[com.github.Drjacky:ImagePicker:2.1.16] /Users/itvstmtpti/.gradle/caches/transforms-3/ba0cfa97601bac53258e41daf52cba2e/transformed/jetified-ImagePicker-2.1.16/AndroidManifest.xml:40:13-78
+119            android:screenOrientation="unspecified"
+119-->[com.github.Drjacky:ImagePicker:2.1.16] /Users/itvstmtpti/.gradle/caches/transforms-3/ba0cfa97601bac53258e41daf52cba2e/transformed/jetified-ImagePicker-2.1.16/AndroidManifest.xml:41:13-52
+120            android:theme="@style/Theme.Transparent.ImagePicker" />
+120-->[com.github.Drjacky:ImagePicker:2.1.16] /Users/itvstmtpti/.gradle/caches/transforms-3/ba0cfa97601bac53258e41daf52cba2e/transformed/jetified-ImagePicker-2.1.16/AndroidManifest.xml:42:13-65
+121        <activity
+121-->[com.github.Drjacky:ImagePicker:2.1.16] /Users/itvstmtpti/.gradle/caches/transforms-3/ba0cfa97601bac53258e41daf52cba2e/transformed/jetified-ImagePicker-2.1.16/AndroidManifest.xml:43:9-46:72
+122            android:name="com.yalantis.ucrop.UCropActivity"
+122-->[com.github.Drjacky:ImagePicker:2.1.16] /Users/itvstmtpti/.gradle/caches/transforms-3/ba0cfa97601bac53258e41daf52cba2e/transformed/jetified-ImagePicker-2.1.16/AndroidManifest.xml:44:13-60
+123            android:screenOrientation="portrait"
+123-->[com.github.Drjacky:ImagePicker:2.1.16] /Users/itvstmtpti/.gradle/caches/transforms-3/ba0cfa97601bac53258e41daf52cba2e/transformed/jetified-ImagePicker-2.1.16/AndroidManifest.xml:45:13-49
+124            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+124-->[com.github.Drjacky:ImagePicker:2.1.16] /Users/itvstmtpti/.gradle/caches/transforms-3/ba0cfa97601bac53258e41daf52cba2e/transformed/jetified-ImagePicker-2.1.16/AndroidManifest.xml:46:13-69
+125
+126        <provider
+126-->[com.github.Drjacky:ImagePicker:2.1.16] /Users/itvstmtpti/.gradle/caches/transforms-3/ba0cfa97601bac53258e41daf52cba2e/transformed/jetified-ImagePicker-2.1.16/AndroidManifest.xml:48:9-56:20
+127            android:name="com.github.drjacky.imagepicker.ImagePickerFileProvider"
+127-->[com.github.Drjacky:ImagePicker:2.1.16] /Users/itvstmtpti/.gradle/caches/transforms-3/ba0cfa97601bac53258e41daf52cba2e/transformed/jetified-ImagePicker-2.1.16/AndroidManifest.xml:49:13-82
+128            android:authorities="uz.alpha.qandlidiabetstartup.imagepicker.provider"
+128-->[com.github.Drjacky:ImagePicker:2.1.16] /Users/itvstmtpti/.gradle/caches/transforms-3/ba0cfa97601bac53258e41daf52cba2e/transformed/jetified-ImagePicker-2.1.16/AndroidManifest.xml:50:13-72
+129            android:exported="false"
+129-->[com.github.Drjacky:ImagePicker:2.1.16] /Users/itvstmtpti/.gradle/caches/transforms-3/ba0cfa97601bac53258e41daf52cba2e/transformed/jetified-ImagePicker-2.1.16/AndroidManifest.xml:51:13-37
+130            android:grantUriPermissions="true" >
+130-->[com.github.Drjacky:ImagePicker:2.1.16] /Users/itvstmtpti/.gradle/caches/transforms-3/ba0cfa97601bac53258e41daf52cba2e/transformed/jetified-ImagePicker-2.1.16/AndroidManifest.xml:52:13-47
+131            <meta-data
+131-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/itvstmtpti/.gradle/caches/transforms-3/7ba65e5bb50647a94f8fc3fa1505f1d4/transformed/jetified-library-4.0.0/AndroidManifest.xml:46:13-48:66
+132                android:name="android.support.FILE_PROVIDER_PATHS"
+132-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/itvstmtpti/.gradle/caches/transforms-3/7ba65e5bb50647a94f8fc3fa1505f1d4/transformed/jetified-library-4.0.0/AndroidManifest.xml:47:17-67
+133                android:resource="@xml/image_picker_provider_paths" />
+133-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/itvstmtpti/.gradle/caches/transforms-3/7ba65e5bb50647a94f8fc3fa1505f1d4/transformed/jetified-library-4.0.0/AndroidManifest.xml:48:17-63
+134        </provider>
+135        <provider
+135-->[androidx.emoji2:emoji2:1.2.0] /Users/itvstmtpti/.gradle/caches/transforms-3/7079ccc55fad8104da8ab683bd093cb8/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+136            android:name="androidx.startup.InitializationProvider"
+136-->[androidx.emoji2:emoji2:1.2.0] /Users/itvstmtpti/.gradle/caches/transforms-3/7079ccc55fad8104da8ab683bd093cb8/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+137            android:authorities="uz.alpha.qandlidiabetstartup.androidx-startup"
+137-->[androidx.emoji2:emoji2:1.2.0] /Users/itvstmtpti/.gradle/caches/transforms-3/7079ccc55fad8104da8ab683bd093cb8/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+138            android:exported="false" >
+138-->[androidx.emoji2:emoji2:1.2.0] /Users/itvstmtpti/.gradle/caches/transforms-3/7079ccc55fad8104da8ab683bd093cb8/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+139            <meta-data
+139-->[androidx.emoji2:emoji2:1.2.0] /Users/itvstmtpti/.gradle/caches/transforms-3/7079ccc55fad8104da8ab683bd093cb8/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+140                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+140-->[androidx.emoji2:emoji2:1.2.0] /Users/itvstmtpti/.gradle/caches/transforms-3/7079ccc55fad8104da8ab683bd093cb8/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+141                android:value="androidx.startup" />
+141-->[androidx.emoji2:emoji2:1.2.0] /Users/itvstmtpti/.gradle/caches/transforms-3/7079ccc55fad8104da8ab683bd093cb8/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+142            <meta-data
+142-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/itvstmtpti/.gradle/caches/transforms-3/ab0138fdfaaff9f00869a7e927f87661/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:29:13-31:52
+143                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+143-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/itvstmtpti/.gradle/caches/transforms-3/ab0138fdfaaff9f00869a7e927f87661/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:30:17-78
+144                android:value="androidx.startup" />
+144-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/itvstmtpti/.gradle/caches/transforms-3/ab0138fdfaaff9f00869a7e927f87661/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:31:17-49
+145            <meta-data
+145-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/itvstmtpti/.gradle/caches/transforms-3/ab1cefcd84f6d46f89de54806bdd04f0/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+146                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+146-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/itvstmtpti/.gradle/caches/transforms-3/ab1cefcd84f6d46f89de54806bdd04f0/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+147                android:value="androidx.startup" />
+147-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/itvstmtpti/.gradle/caches/transforms-3/ab1cefcd84f6d46f89de54806bdd04f0/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+148        </provider>
+149
+150        <uses-library
+150-->[androidx.window:window:1.0.0] /Users/itvstmtpti/.gradle/caches/transforms-3/b03ec18c8f9c79f0ae5ed6f403b228b1/transformed/jetified-window-1.0.0/AndroidManifest.xml:25:9-27:40
+151            android:name="androidx.window.extensions"
+151-->[androidx.window:window:1.0.0] /Users/itvstmtpti/.gradle/caches/transforms-3/b03ec18c8f9c79f0ae5ed6f403b228b1/transformed/jetified-window-1.0.0/AndroidManifest.xml:26:13-54
+152            android:required="false" />
+152-->[androidx.window:window:1.0.0] /Users/itvstmtpti/.gradle/caches/transforms-3/b03ec18c8f9c79f0ae5ed6f403b228b1/transformed/jetified-window-1.0.0/AndroidManifest.xml:27:13-37
+153        <uses-library
+153-->[androidx.window:window:1.0.0] /Users/itvstmtpti/.gradle/caches/transforms-3/b03ec18c8f9c79f0ae5ed6f403b228b1/transformed/jetified-window-1.0.0/AndroidManifest.xml:28:9-30:40
+154            android:name="androidx.window.sidecar"
+154-->[androidx.window:window:1.0.0] /Users/itvstmtpti/.gradle/caches/transforms-3/b03ec18c8f9c79f0ae5ed6f403b228b1/transformed/jetified-window-1.0.0/AndroidManifest.xml:29:13-51
+155            android:required="false" />
+155-->[androidx.window:window:1.0.0] /Users/itvstmtpti/.gradle/caches/transforms-3/b03ec18c8f9c79f0ae5ed6f403b228b1/transformed/jetified-window-1.0.0/AndroidManifest.xml:30:13-37
+156
+157        <service
+157-->[androidx.room:room-runtime:2.6.1] /Users/itvstmtpti/.gradle/caches/transforms-3/987f4ae02cb47d87d600229a260aaa33/transformed/room-runtime-2.6.1/AndroidManifest.xml:24:9-28:63
+158            android:name="androidx.room.MultiInstanceInvalidationService"
+158-->[androidx.room:room-runtime:2.6.1] /Users/itvstmtpti/.gradle/caches/transforms-3/987f4ae02cb47d87d600229a260aaa33/transformed/room-runtime-2.6.1/AndroidManifest.xml:25:13-74
+159            android:directBootAware="true"
+159-->[androidx.room:room-runtime:2.6.1] /Users/itvstmtpti/.gradle/caches/transforms-3/987f4ae02cb47d87d600229a260aaa33/transformed/room-runtime-2.6.1/AndroidManifest.xml:26:13-43
+160            android:exported="false" />
+160-->[androidx.room:room-runtime:2.6.1] /Users/itvstmtpti/.gradle/caches/transforms-3/987f4ae02cb47d87d600229a260aaa33/transformed/room-runtime-2.6.1/AndroidManifest.xml:27:13-37
+161
+162        <receiver
+162-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/itvstmtpti/.gradle/caches/transforms-3/ab1cefcd84f6d46f89de54806bdd04f0/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+163            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+163-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/itvstmtpti/.gradle/caches/transforms-3/ab1cefcd84f6d46f89de54806bdd04f0/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+164            android:directBootAware="false"
+164-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/itvstmtpti/.gradle/caches/transforms-3/ab1cefcd84f6d46f89de54806bdd04f0/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+165            android:enabled="true"
+165-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/itvstmtpti/.gradle/caches/transforms-3/ab1cefcd84f6d46f89de54806bdd04f0/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+166            android:exported="true"
+166-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/itvstmtpti/.gradle/caches/transforms-3/ab1cefcd84f6d46f89de54806bdd04f0/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+167            android:permission="android.permission.DUMP" >
+167-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/itvstmtpti/.gradle/caches/transforms-3/ab1cefcd84f6d46f89de54806bdd04f0/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+168            <intent-filter>
+168-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/itvstmtpti/.gradle/caches/transforms-3/ab1cefcd84f6d46f89de54806bdd04f0/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+169                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+169-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/itvstmtpti/.gradle/caches/transforms-3/ab1cefcd84f6d46f89de54806bdd04f0/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+169-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/itvstmtpti/.gradle/caches/transforms-3/ab1cefcd84f6d46f89de54806bdd04f0/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+170            </intent-filter>
+171            <intent-filter>
+171-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/itvstmtpti/.gradle/caches/transforms-3/ab1cefcd84f6d46f89de54806bdd04f0/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+172                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+172-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/itvstmtpti/.gradle/caches/transforms-3/ab1cefcd84f6d46f89de54806bdd04f0/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+172-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/itvstmtpti/.gradle/caches/transforms-3/ab1cefcd84f6d46f89de54806bdd04f0/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+173            </intent-filter>
+174            <intent-filter>
+174-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/itvstmtpti/.gradle/caches/transforms-3/ab1cefcd84f6d46f89de54806bdd04f0/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+175                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+175-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/itvstmtpti/.gradle/caches/transforms-3/ab1cefcd84f6d46f89de54806bdd04f0/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+175-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/itvstmtpti/.gradle/caches/transforms-3/ab1cefcd84f6d46f89de54806bdd04f0/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+176            </intent-filter>
+177            <intent-filter>
+177-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/itvstmtpti/.gradle/caches/transforms-3/ab1cefcd84f6d46f89de54806bdd04f0/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+178                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+178-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/itvstmtpti/.gradle/caches/transforms-3/ab1cefcd84f6d46f89de54806bdd04f0/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+178-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/itvstmtpti/.gradle/caches/transforms-3/ab1cefcd84f6d46f89de54806bdd04f0/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+179            </intent-filter>
+180        </receiver>
+181    </application>
+182
+183</manifest>
