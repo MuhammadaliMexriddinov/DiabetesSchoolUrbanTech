@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/splashScreen">
+
+
+    <fragment
+        tools:layout="@layout/screen_third"
+        android:id="@+id/thirdScreen"
+        android:name="uz.alpha.qandlidiabetstartup.presentation.detection.ui.screen.pages.tests.ThirdScreen"
+        android:label="ThirdScreen" />
+    <fragment
+        tools:layout="@layout/screen_diabet"
+        android:id="@+id/diabetScreen"
+        android:name="uz.alpha.qandlidiabetstartup.presentation.detection.ui.screen.pages.tests.DiabetScreen"
+        android:label="DiabetScreen" />
+    <fragment
+        tools:layout="@layout/screen_findrisk"
+        android:id="@+id/findRiskScreen"
+        android:name="uz.alpha.qandlidiabetstartup.presentation.detection.ui.screen.pages.tests.FindRiskScreen"
+        android:label="FindRiskScreen" >
+
+    </fragment>
+    <fragment
+        tools:layout="@layout/screen_information"
+        android:id="@+id/informationScreen"
+        android:name="uz.alpha.qandlidiabetstartup.presentation.detection.ui.screen.screen.InformationScreen"
+        android:label="InformationScreen" />
+    <fragment
+        tools:layout="@layout/screen_caching"
+        android:id="@+id/cachingScreen"
+        android:name="uz.alpha.qandlidiabetstartup.presentation.detection.ui.screen.screen.CachingPage"
+        android:label="CachingScreen" />
+    <fragment
+        tools:layout="@layout/screen_language"
+        android:id="@+id/langScreen"
+        android:name="uz.alpha.qandlidiabetstartup.presentation.detection.ui.screen.screen.LangScreen"
+        android:label="LangScreen" >
+        <action
+            android:id="@+id/action_langScreen_to_mainScreen"
+            app:destination="@id/mainScreen" />
+    </fragment>
+    <fragment
+        tools:layout="@layout/screen_others"
+        android:id="@+id/othersPage"
+        android:name="uz.alpha.qandlidiabetstartup.presentation.detection.ui.screen.screen.OthersPage"
+        android:label="OthersPage" >
+        <action
+            android:id="@+id/action_othersPage_to_langScreen"
+            app:destination="@id/langScreen" />
+        <action
+            android:id="@+id/action_othersPage_to_appInformationScreen"
+            app:destination="@id/appInformationScreen" />
+    </fragment>
+    <fragment
+        android:id="@+id/appInformationScreen"
+        android:name="uz.alpha.qandlidiabetstartup.presentation.detection.ui.screen.screen.AppInformationPage"
+        android:label="AppInformationScreen" />
+    <fragment
+        tools:layout="@layout/screen_rake"
+        android:id="@+id/rakeScreen"
+        android:name="uz.alpha.qandlidiabetstartup.presentation.detection.ui.screen.pages.tests.RakeScreen"
+        android:label="RakeScreen" >
+        <action
+            android:id="@+id/action_rakeScreen_to_langScreen"
+            app:destination="@id/langScreen" />
+    </fragment>
+    <fragment
+        tools:layout="@layout/screen_sign_in"
+        android:id="@+id/signInScreen"
+        android:name="uz.alpha.qandlidiabetstartup.presentation.detection.ui.screen.auth.SignInScreen"
+        android:label="SignInScreen" >
+        <action
+            android:id="@+id/action_signInScreen_to_signUpScreen2"
+            app:destination="@id/signUpScreen" />
+        <action
+            android:id="@+id/action_signInScreen_to_verifyScreen2"
+            app:destination="@id/verifyScreen" />
+        <action
+            android:id="@+id/action_signInScreen_to_mainScreen"
+            app:destination="@id/mainScreen" />
+    </fragment>
+    <fragment
+        tools:layout="@layout/screen_sign_up"
+        android:id="@+id/signUpScreen"
+        android:name="uz.alpha.qandlidiabetstartup.presentation.detection.ui.screen.auth.SignUpScreen"
+        android:label="SignUpScreen" >
+        <action
+            android:id="@+id/action_signUpScreen_to_verifyScreen2"
+            app:destination="@id/verifyScreen" />
+        <action
+            android:id="@+id/action_signUpScreen_to_mainScreen"
+            app:destination="@id/mainScreen" />
+    </fragment>
+    <fragment
+        tools:layout="@layout/screen_verify"
+        android:id="@+id/verifyScreen"
+        android:name="uz.alpha.qandlidiabetstartup.presentation.detection.ui.screen.auth.VerifyScreen"
+        android:label="VerifyScreen" >
+        <action
+            android:id="@+id/action_verifyScreen_to_signInScreen2"
+            app:destination="@id/signInScreen" />
+        <action
+            android:id="@+id/action_verifyScreen_to_mainScreen"
+            app:destination="@id/mainScreen" />
+    </fragment>
+    <fragment
+        tools:layout="@layout/screen_splash"
+        android:id="@+id/splashScreen"
+        android:name="uz.alpha.qandlidiabetstartup.presentation.detection.ui.screen.auth.SplashScreen"
+        android:label="SplashScreen" >
+        <action
+            android:id="@+id/action_splashScreen_to_signInScreen"
+            app:destination="@id/signInScreen" />
+    </fragment>
+    <fragment
+        android:id="@+id/firstTypeDiabetic"
+        android:name="uz.alpha.qandlidiabetstartup.presentation.detection.ui.screen.pages.school.type.FirstTypeDiabetic"
+        android:label="FirstTypeDiabetic" >
+        <action
+            android:id="@+id/action_firstTypeDiabetic_to_dailyInsulinScreen"
+            app:destination="@id/dailyInsulinScreen" />
+        <action
+            android:id="@+id/action_firstTypeDiabetic_to_breadOneScreen"
+            app:destination="@id/breadOneScreen" />
+        <action
+            android:id="@+id/action_firstTypeDiabetic_to_insulinInstructorScreen"
+            app:destination="@id/insulinInstructorScreen" />
+    </fragment>
+    <fragment
+        tools:layout="@layout/screen_main"
+        android:id="@+id/mainScreen"
+        android:name="uz.alpha.qandlidiabetstartup.presentation.detection.ui.screen.screen.MainScreen"
+        android:label="MainScreen" >
+        <action
+            android:id="@+id/action_mainScreen_to_thirdScreen"
+            app:destination="@id/thirdScreen" />
+        <action
+            android:id="@+id/action_mainScreen_to_diabetScreen"
+            app:destination="@id/diabetScreen" />
+        <action
+            android:id="@+id/action_mainScreen_to_firstTypeDiabetic"
+            app:destination="@id/firstTypeDiabetic" />
+        <action
+            android:id="@+id/action_mainScreen_to_rakeScreen"
+            app:destination="@id/rakeScreen" />
+        <action
+            android:id="@+id/action_mainScreen_to_informationScreen"
+            app:destination="@id/informationScreen" />
+        <action
+            android:id="@+id/action_mainScreen_to_langScreen"
+            app:destination="@id/langScreen" />
+        <action
+            android:id="@+id/action_mainScreen_to_neuroAssistantScreen"
+            app:destination="@id/neuroAssistantScreen" />
+        <action
+            android:id="@+id/action_mainScreen_to_secondTypeDiabetic"
+            app:destination="@id/secondTypeDiabetic" />
+    </fragment>
+    <fragment
+        android:id="@+id/dailyInsulinScreen"
+        android:name="uz.alpha.qandlidiabetstartup.presentation.detection.ui.screen.pages.school.type1.DailyInsulinScreen"
+        android:label="DailyInsulinScreen" />
+    <fragment
+        android:id="@+id/breadOneScreen"
+        android:name="uz.alpha.qandlidiabetstartup.presentation.detection.ui.screen.pages.school.type1.BreadOneScreen"
+        android:label="BreadOneScreen" />
+    <fragment
+        android:id="@+id/neuroAssistantScreen"
+        android:name="uz.alpha.qandlidiabetstartup.presentation.detection.ui.screen.pages.school.type.NeuroAssistantScreen"
+        android:label="NeuroAssistantScreen" />
+    <fragment
+        android:id="@+id/insulinInstructorScreen"
+        android:name="uz.alpha.qandlidiabetstartup.presentation.detection.ui.screen.pages.school.type1.InsulinInstructorScreen"
+        android:label="InsulinInstructorScreen" />
+    <fragment
+        tools:layout="@layout/screen_foods"
+        android:id="@+id/secondTypeDiabetic"
+        android:name="uz.alpha.qandlidiabetstartup.presentation.detection.ui.screen.pages.school.type.SecondTypeDiabetic"
+        android:label="SecondTypeDiabetic" />
+
+</navigation>

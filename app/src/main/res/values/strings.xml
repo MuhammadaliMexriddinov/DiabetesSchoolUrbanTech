@@ -1,0 +1,256 @@
+<resources>
+    <string name="app_name">DIABET AI</string>
+
+    <string name="main_1">Asosiy</string>
+    <string name="main_2">Til</string>
+    <string name="main_3">Ilova haqida</string>
+    <string name="information">Qo`shimcha ma`lumot</string>
+
+
+    <string name="male">Erkak</string>
+    <string name="female">Ayol</string>
+
+    <string name="yes">Ha</string>
+    <string name="no">Yo`q</string>
+
+    <string name="score">Natija</string>
+
+    <string name="main1">Jinsingizni kiriting"</string>
+    <string name="main2">Yoshingizni ko`rsating:</string>
+    <string name="main3">Sizda poluriya (siydik ishlab chiqarishni ko`payishi) mavjudmi?</string>
+    <string name="main4">"Polidipsiya (tashnalik, qondirib bo'lmaydigan chanqoq) mavjudmi ?"</string>
+    <string name="main5">"To`satdan  vazn yo`qotish holati bormi?"</string>
+    <string name="main6">"Kuchsizlik, holsizlik bormi?"</string>
+    <string name="main7">"Polifagiya (doimiy ochlik) kuzatiladimi?"</string>
+    <string name="main8">"Ko`rish xiraligi bormi?"</string>
+    <string name="main9">"Genital qichishish mavjudmi ?"</string>
+    <string name="main10">"Asabiylashish bormi?"</string>
+    <string name="main11">"Sekin sog`ayish bormi?"</string>
+    <string name="main12">"Qisman parhez tutasizmi?"</string>
+    <string name="main13">"Yutunushdagi qiyinchilik kuzatiladimi?"</string>
+    <string name="main14">"Alopetsiya bormi?"</string>
+    <string name="main15">"Semirish, vazn ortishi kuzatiladimi ?"</string>
+    <string name="main16_1">"Yo`q , chalinmagan"</string>
+    <string name="main16_2">"Ha:(bobo/buvi,xola/amma,amaki/tog`a)"</string>
+    <string name="main16_3">"Ha:(ota/ona,opa/singil,aka/uka)"</string>
+
+
+
+
+    <string name="alerter">Iltimos ma`lumotlarni to` liq kiriting</string>
+
+
+    <string name="delete1">"Rostdan ham o`chirmoqchimisiz ?"</string>
+    <string name="delete2">"HA"</string>
+    <string name="delete3">"YO`Q"</string>
+    <string name="delete4">"Ogohlantirish"</string>
+
+
+    <string name="foydalanish2">Ushbu test  toliq tibbiy diagnostika hisoblanmaydi. Natijalar faqat malumot uchun taqdim etiladi va ular malakali shifokor tashxisi hisoblanmaydi.</string>
+    <string name="foydalanish3">Malumotlaringiz xavfsizligi taminlanadi. Siz berayotgan malumotlar anonim va ular uchinchi shaxslarga taqdim etilmaydi.</string>
+    <string name="dialogUzbRuxsatBerish">Boshlash</string>
+
+    <string name="find3">"Vazningiz"</string>
+    <string name="find4">"Qorningizning aylana uzunligi (kindik darajasi atrofida, santimetrda)"</string>
+    <string name="find5">"Har kuni kamida 30 daqiqalik jismoniy mashg'ulot bilan shug'ullanasizmi?"</string>
+    <string name="find6">"Har kuni sabzavotlar iste'mol qilasizmi?"</string>
+    <string name="find7">"Avval yoki hozir antigipertenziv (qon bosimi uchun) dori vostalarini doimiy tarzda qabul qilganmisiz?"</string>
+    <string name="find8">"Sizda biror marta (biror tibbiy ko'rikda, kasallik paytida, yoki homila vaqtida) qoningizda glyukoza miqdori oshib ketganligi aniqlanganmi?"</string>
+    <string name="find9">"Oila a'zolaringiz yoki qarindoshlaringiz orasida qandli diabetga chalinganlar bormi?"</string>
+
+    <string name="uz">O`zbekcha</string>
+    <string name="ru">Ruscha</string>
+
+    <string name="f1">Past ✅</string>
+    <string name="f2">O`rta ❕</string>
+    <string name="f3">Yuqori ‼️</string>
+
+
+
+
+    <string name="dialogUzb0">Testni boshlashingiz quyidagi shartlarni  inobatga olishingizni va roziligingizni bildiradi:</string>
+    <string name="dialogUzb2">Ushbu test to`liq diagnostika hisoblanmaydi.Natijalar faqat ma`lumot berish uchun  mo`ljallangan va ular malakali tashxis emas.\nMa`lumotlaringiz xavfsizligi ta`minlanadi. Siz berayotgan ma`lumotlar  anonim va ular uchinchi shaxslarga taqdim etilmaydi.</string>
+    <string name="dialogUzb3">Ma`lumotlaringiz xavfsizligi ta`minlanadi. Siz berayotgan ma`lumotlar  anonim va ular uchinchi shaxslarga taqdim etilmaydi.</string>
+
+
+    <string name="dialogUzbTitle">Foydalanish shartlari</string>
+    <string name="dialogUzbYoq">Bekor</string>
+    <string name="start">Boshlash</string>
+    <string name="start2">Berilgan ma`lumot bilan tanishib chiqdim.</string>
+    <string name="main">Asosiy</string>
+
+
+    <string name="diabetInfo">Berilgan ma`lumot bilan tanishib chiqdim.</string>
+
+    <string name="drInfo">Diabetik retinopatiya - bu dunyoning rivojlangan mamlakatlarida mehnatga layoqatli yoshdagi aholi orasida ko‘z ojizligining asosiy sababidir. Turli manbalarga ko‘ra, bu kasallikdan 93 milliondan ortiq kishi aziyat chekadi.
+
+AQSh kasalliklar profilaktikasi va nazorati markazining ma’lumotlariga ko‘ra, AQShda 29,1 million kishi diabetga chalingan, Jahon Sog‘liqni Saqlash Tashkiloti esa butun dunyoda bu kasallikdan 347 million kishi aziyat chekishini ma’lum qiladi.
+
+Diabetik retinopatiya (DR) - bu qandli diabet kasalligining ko‘p vaqt davom etishi bilan bog‘liq bo‘lgan ko‘z kasalligi. Diabetga chalingan amerikaliklarning 40-45% qismi qandli diabetning ma’lum bosqichini boshdan kechirmoqda. DRni vaqtida aniqlash ko‘zning borgan sari ojizlashib borishini sekinlashtirishga yoki oldini olishga yordam berishi mumkin. Ammo ko‘p xollarda uni aniqlash juda qiyin bo‘ladi, chunki bu kasallikning simptomlari ilk bosqichlarda juda kam namoyon bo‘ladi, keyingi bosqichlarda esa samarali davo choralarini qo‘llashga juda kech bo‘ladi.
+
+Hozirgi vaqtda DRni aniqlash - bu qo‘lda bajariladigan juda mehnattalab jarayon bo‘lib, shifokordan ko‘z tubi tomirlarining raqamli rangli rasmlarini o‘rganib chiqish va baholash talab qilinadi. Bu vaqt ichida esa, shifokor xulosasini taqdim etgan paytga kelib, ikki yoki uch kunga kechiktirilgan natijalar nazoratning yo‘qolishiga, tushunmovchilikka va davo choralarining kechikishiga olib keladi.
+
+Klinik shifokorlar DRni tomirlardagi anomaliyalar bilan bog‘liq zararlar orqali aniqlashadi. Bu usul samarali bo‘lsa-da, u ko‘p narsa talab qiladi. Buning uchun  aholi orasida diabetga chalinganlar ko‘p bo‘lgan hududlarda lozim bo‘lgan bilim va qurilmalar yetishmovchiligi mavjud. Diabetga chalinayotgan odamlar soni ko‘payib borarkan, DR oqibatida ko‘z ojizligining oldini olish uchun kerak bo‘ladigangan infratuzilma defitsiti yuzaga keladi.
+
+DR skriningining barchasini qamrab olgan va avtomatlashtirilgan usuliga muhtojlik borligi allaqachon tan olingan, va avvalgi urinishlar bu borada tasvirlarni tasniflash, tasvirni anglash va mashinaviy o‘qitish yordamida katta o‘sishga olib keldi. Ko‘z tubining raqamli rasmini kirish ma’lumotlari sifatida foydalangan xolda, aniqlashning avtomatlashtirilgan tizimgacha olib borish mumkin, va bu mukammallikda realistik klinik istiqbolga ega bo‘lgan modellarni yaratishga olib keladi.</string>
+
+    <string name="account">Akkount</string>
+    <string name="infooo">Ilova haqida</string>
+    <string name="change_account_name">Akkount nomini o`zgartirish</string>
+    <string name="change_image">Akkount rasmini o`zgartirish</string>
+    <string name="help"><![CDATA[Help & Feedback]]></string>
+    <string name="support_us">Qo`llab-quvvatlash</string>
+    <string name="about_us">About US</string>
+    <string name="contact_us">Feedback</string>
+    <string name="name">Ism</string>
+    <string name="save">saqlash</string>
+    <string name="share">Ulashish</string>
+    <string name="language">Tilni tanlang</string>
+    <string name="cancel">Orqaga</string>
+
+    <string name="d1">Sizning natijangiz</string>
+    <string name="d2">"Diabet rivojlanish xavfi yuqori, iltimos, shifokoringizga murojaat qiling"</string>
+    <string name="d5">"Diabet xavfi past!"</string>
+
+    <string name="starttxt1">"!!!"</string>
+    <string name="starttxt2">"!!!"</string>
+    <string name="starttxt3">"!!!"</string>
+
+    <string name="dryes">✅Retinopatiya aniqlanmadi!</string>
+    <string name="drno">☹️Retinopatiya aniqlandi!</string>
+    <string name="dr">Diabetik Retinopatiya</string>
+    <string name="dr_low">✅Yengil darajadagi retinopatiya aniqlandi!</string>
+    <string name="dr_high">☹️Og‘ir darajadagi retinopatiya aniqlandi!</string>
+    <string name="dr_medium">✅O‘rta darajadagi retinopatiya aniqlandi!</string>
+
+    <string name="find_1">Keyingi 10 yil ichida 2-toifa diabet rivojlanish xavfi past!</string>
+    <string name="find_2">2-toifa qandli diabetning rivojlanish xavfi bir oz ortdi!</string>
+    <string name="find_3">"2-toifa qandli diabetning rivojlanish xavfi o'rtacha!"</string>
+    <string name="find_4">2-toifa diabet rivojlanish xavfi YUQORI!</string>
+    <string name="find_5">2-toifa diabet rivojlanish xavfi JUDA YUQORI!</string>
+    <string name="info_1">"Prediabet - bu II turdagi diabet xavfini ko'rsatadigan birinchi belgi. Bu sizning qon shakaringiz darajasi me'yordan yuqori ekanligini anglatadi. Ikkinchi turdagi diabetga tashxis qo'yilgan odamlarning ko'pchiligi erta diabetga tashxis qo'yilgan odamlardir. Ammo umidsizlikka va vahima qo'yishga shoshilmang, chunki turmush tarzini o'zgartirish, ovqatlanish va dori-darmonlar qondagi qand miqdorini normal holatga qaytarishga va diabet rivojlanishining oldini olishga yoki uning rivojlanishini sezilarli darajada kechiktirishga yordam beradi.
+
+Prediabetik kasallik tanada bunday bo'lmagan holatlarda paydo bo'ladi. insulin gormoniga to'g'ri javob beradi va natijada qondagi glyukoza (shakar) miqdorini normal darajada ushlab turolmaydi. Qon shakar darajasi me'yordan yuqori, ammo diabetni tashxislash uchun etarli emas. Agar parhez, dori-darmonlar va jismoniy mashqlar o'z vaqtida belgilanmasa, holat yomonlashishi va diabetes mellitusning rivojlanishiga va yurak kasalliklari va yirik qon tomirlari, insult, ko'rishning buzilishi, asab tizimi va buyraklar kasalliklari kabi jiddiy asoratlarga olib kelishi mumkin."</string>
+
+    <string name="info_2">"📜 Umimiy ma'lumotlar
+Qandli diabet (QD) - bu organizm yetarli miqdorda insulin ishlab chiqara olmaganida yoki undan samarali foydalana olmaganida rivojlanuvchi surunkali kasallikdir. Insulin - bu qondagi qand miqdori me'yorda bo'lishini ta'minlovchi garmon. Nazoratsiz qoldirilganda qandli diabet giperglikemiyaga, ya'ni qonda glyukoza (qand) miqdorining ortib ketishiga olib keladi. Vaqt o'tishi bilan bu yurak, qon-tomir, ko'z, buyurak va asab kabi organizmning ko'plab tizimlarida jiddiy buzilishlarga olib keladi. 2-turdagi QDning rivojlanishidan oldin odatda organizmda prediabet deb nomlanuvchi o'zgarishlar kuzatiladi.
+«FINDRISC» shkalasi Finlyandiyalik tadqiqotchilar tomonidan tuzilgan va ko'plab Yevropa mamlakatlarida foydalanib kelingan. Shkalaning validizatsiyasi (ya'ni aniqligini ta'minlash uchun tadqiqotlar qilish) Germaniya, Niderlandiya, Daniya, Shvetsiya, Buyuk Britaniya va Avstraliyada o'tkazilgan. Ushbu shkala Germaniya, AQSh, Shveytsariya va Kanada mamlakatlarida sinovdan yuqori darajada o'tkazilgan va aniqlik bo'yicha yaxshi ko'rsatkichlar kuzatilgan."</string>
+
+    <string name="info_4">"📕 Diabetik oyoq sindromi
+ Diabetik oyoq sindromi (diabetik oyoq, ingliz diabetik oyoq) diabetik neyropatiya, mikro- va makroangiopatiya, osteoartropatiya fonida rivojlanadigan anatomik va funktsional o'zgarishlar majmuasi bo'lib, oyoqning yumshoq to'qimalarining shikastlanishi va infektsiyasining kuchayishiga yordam beradi. yiringli-nekrotik jarayonning rivojlanishi va ilg'or holatlarda amputatsiyaga olib keladi
+
+📕 Kasallik belgilari
+ Diabetik oyoq sindromi diabetes mellitusda oyoq-qo'llarning amputatsiyasining asosiy sababidir. Qandli diabet bilan og'rigan bemorlarning taxminan 8-10 foizi zarar ko'radi va ularning 40-50 foizi xavf guruhiga kiradi. Diabetik oyoq sindromi 2-toifa diabetga chalingan odamlarda 10 marta tez-tez rivojlanadi. Bemorlarning kamida 47 foizida davolanish imkoni boricha kechroq boshlanadi. Natijada oyoq-qo'llarning amputatsiyasi bo'lib, bu bemorlarning o'lim darajasini 2 baravar oshiradi va bemorlarni davolash va reabilitatsiya qilish uchun keyingi xarajatlarni 3 barobar oshiradi. Diagnostika taktikasini takomillashtirish, bemorlarni klinik tekshirish va davolash bemorlarda amputatsiyalar chastotasini 43-85% ga kamaytirishi mumkin.Dabetik oyoq sindromi 1-toifa qandli diabet bilan og'rigan bemorlarning ko'pchiligida kasallikning boshlanishidan 7-10 yil o'tgach rivojlanadi; 2-toifa diabet bilan og'rigan bemorlarda bu kasallikning boshlanishi bilan paydo bo'lishi mumkin. 85% hollarda u turli zo'ravonlikdagi oyoq yaralari bilan ifodalanadi. Tadqiqotlar shuni ko'rsatadiki, diabet jamiyatida hayot davomida patologiya bilan kasallanish taxminan 15% ni tashkil qiladi va 25% gacha cho'qqisiga chiqishi mumkin.."</string>
+
+
+
+    <string name="data1">Saqlangan ma`lumotlar</string>
+    <string name="data2">Diabet</string>
+    <string name="data3">Ma`lumotlar</string>
+    <string name="data5">Siz jo`natayotgan rasm</string>
+    <string name="data6">Rasm yuklash</string>
+    <string name="data7">Yuborish</string>
+    <string name="follow">Bizni kuzating</string>
+    <string name="fordata">Rasmni png yoki jpg ko`rinishida yuborishingiz kerak !</string>
+    <string name="data4">"Fundus kamera orqali ko'z tubi rasmni ilovaga yuklang. Rasmni huddi na'munadagidek yuklang aks holda notogri natija chiqaradi."</string>
+
+    <string name="stapa_res1">"‼️Tasvirda diabetik yara aniqlandi. Zudlik bilan o'z shifokoringizga murojaat qilishingizni so'raymiz."</string>
+    <string name="stapa_res2">"Normal teri tasviri ✅"</string>
+    <string name="maintitle">"Sun'iy intellektga asoslangan holda diabetni aniqlovchi android ilova"</string>
+
+
+    <string name="exitt">"Chiqish"</string>
+    <string name="info11">"Autizm haqida"</string>
+    <string name="register1_1">"Doktor versiyasiga kirish uchun ismingiz va parolingizni kiriting"</string>
+    <string name="register1_2">"Elektron Pochtangiz"</string>
+    <string name="register1_3">"Parolingiz"</string>
+    <string name="register1_4">"Bekor"</string>
+    <string name="register1_5">"F.I.SH"</string>
+    <string name="dialog_doctor">Login yoki parolda xatolik!</string>
+
+    <string name="verify_good">Siz ro`yxatdan muvaffaqiyatli o`tdingiz!</string>
+    <string name="verify_bad">"Siz ro`yxatdan o`tmadingiz , iltimos qaytadan urunib ko`ring."</string>
+    <string name="manba">"Manba"</string>
+    <string name="dta">Ma`lumot</string>
+
+    <string name="langg">"Tilni o`zgartirish"</string>
+    <string name="verify">"Verifikatsiya"</string>
+    <string name="verify_txt1">"SMS kod sizning email pochtangizga jo`natildi."</string>
+    <string name="verify_txt2">"Kodni kiriting"</string>
+    <string name="user_txt1">"Testni boshlash"</string>
+    <string name="user_txt2">"Fotosurat testi"</string>
+    <string name="registr1">"Registratsiya"</string>
+    <string name="registr2">"Familiya"</string>
+    <string name="registr3">"Ism"</string>
+    <string name="registr4">"Sharif"</string>
+    <string name="registr5">"Ish joyi"</string>
+    <string name="registr6">"Ish telefon raqami"</string>
+    <string name="registr7">"Lavozim"</string>
+    <string name="registr8">"Elektron Pochta"</string>
+    <string name="registr9">"Telefon Raqami"</string>
+    <string name="registr10">"Parol"</string>
+    <string name="registr11">"Yuborish"</string>
+
+    <string name="food_green1">"Barcha sabzavotlar"</string>
+    <string name="food_green2">"Qo'ziqorinlar"</string>
+    <string name="food_green3">"Kaloriyasiz ichimliklar"</string>
+    <string name="food_green1_1">"•kartoshka"</string>
+    <string name="food_green1_2">"•makkajo'xori"</string>
+    <string name="food_green1_3">"•yetilgan dukkaklilar , ‼️no'xat va loviyadan tashqari"</string>
+    <string name="food_green2_1">"•barcha qo'ziqorinlar"</string>
+    <string name="food_green3_1">"•choy"</string>
+    <string name="food_green3_2">"•shakar va qaymoqsiz qahva"</string>
+    <string name="food_green3_3">"•mineral suv"</string>
+    <string name="food_green3_4">"•qand o'rnini bosuvchilarda tayyorlangan gazlangan ichimliklar"</string>
+
+        <string name="food_yellow1">"Tarkibida oqillari bor maxsulotlar"</string>
+    <string name="food_yellow2">"Shirin ta'm beruvchi moddalar"</string>
+    <string name="food_yellow3">"Tarkibida o'zlashtiriladigan uglevodlar bo'lgan maxsulotlar"</string>
+    <string name="food_yellow1_1">"•yog'siz go'sht"</string>
+    <string name="food_yellow1_2">"•baliq"</string>
+    <string name="food_yellow1_3">"•pishloq , yog'ligi &lt; 30%"</string>
+    <string name="food_yellow1_4">"•tvorog yog'ligi , &lt; 4%"</string>
+    <string name="food_yellow1_5">"•yog'siz va nordon sutli maxsulotlar"</string>
+    <string name="food_yellow2_1">"•aspartam"</string>
+    <string name="food_yellow2_2">"•saxarin"</string>
+    <string name="food_yellow2_3">"•tsiklamat"</string>
+    <string name="food_yellow2_4">"•atsesulfam"</string>
+    <string name="food_yellow3_1">"•kartoshka"</string>
+    <string name="food_yellow3_2">"•makkajo'xori"</string>
+    <string name="food_yellow3_3">"•yetilgan dukkaklar"</string>
+    <string name="food_yellow3_4">"•non"</string>
+    <string name="food_yellow3_5">"•makaron maxsulotlari"</string>
+    <string name="food_yellow3_6">"•mevalar  ‼️(uzum va quritilgan mevalar bundan mustasno) "</string>
+
+    <string name="food_red1">"Tarkibida oqsillari bor maxsulotlar"</string>
+    <string name="food_red2">"Tarkibida oddiy uglevodlar bo'lgan maxsulotlar"</string>
+    <string name="food_red3">"Qand o'rnini bosuvchilar: Spirtli ichimliklar"</string>
+    <string name="food_red1_1">"•Har qanday yog'"</string>
+    <string name="food_red1_2">"•Mol yog'i"</string>
+    <string name="food_red1_3">"•Smetana"</string>
+    <string name="food_red1_4">"•Margarin"</string>
+    <string name="food_red1_5">"•Mayonez"</string>
+    <string name="food_red1_6">"•Qaymoq"</string>
+    <string name="food_red1_7">"•Yog'li go'sht"</string>
+    <string name="food_red1_8">"•Dudlangan maxsulotlar"</string>
+    <string name="food_red1_9">"•Kolbasalar"</string>
+    <string name="food_red1_10">"•Yog'li baliq"</string>
+    <string name="food_red1_11">"•Yong'oqlar"</string>
+    <string name="food_red1_12">"•Pista"</string>
+    <string name="food_red1_13">"•tvorog yog'ligi , &lt; 4%"</string>
+    <string name="food_red1_14">"•pishloq , yog'ligi &lt; 30%"</string>
+
+    <string name="food_red2_1">"•Shakar"</string>
+    <string name="food_red2_2">"•Asal"</string>
+    <string name="food_red2_3">"•Murabbo"</string>
+    <string name="food_red2_4">"•Djemlar"</string>
+    <string name="food_red2_5">"•Muzqaymoq"</string>
+    <string name="food_red2_6">"•Shokolat"</string>
+    <string name="food_red2_7">"•Konfetlar"</string>
+    <string name="food_red2_8">"•Pechenie va boshqa qandli maxsulotlar"</string>
+    <string name="food_red2_9">"•Shirin gazlangan ichimliklar"</string>
+    <string name="food_red2_10">"•Sharbatlar"</string>
+
+
+
+</resources>

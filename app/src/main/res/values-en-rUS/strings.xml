@@ -1,0 +1,255 @@
+<resources>
+    <string name="app_name">DIABET AI</string>
+
+    <string name="main_1">Main</string> -Head
+    <string name="main_2">Language</string>
+    <string name="main_3">About app</string>
+
+
+    <string name="male">Male</string>
+    <string name="female">Female</string> -Female
+
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <string name="score">Result</string>
+
+    <string name="main1">Enter your gender</string> - Your gender
+    <string name="main2">Enter your age:</string>
+    <string name="main3"> "Do you have polyuria (increased urine production)?"</string>
+    <string name="main4">"Do you have polydipsia?"</string>
+    <string name="main5">"Do you have a state of sudden weight loss?"</string>
+    <string name="main6">"Do you have fatigue?"</string>
+    <string name="main7">" Do you have polyphagia (constant hunger)?"</string>
+    <string name="main8">"Do you have blurred vision?"</string>
+    <string name="main9">"Do you have itching?"</string>
+    <string name="main10">"Do you have stress?"</string>
+    <string name="main11">" Do you have delayed healing?"</string>
+    <string name="main12">"Do you have partial paresis?"</string>
+    <string name="main13">"Do you have muscle weakness?"</string>
+    <string name="main14">"Do you have alopecia?"</string>
+    <string name="main15">" Do you experience weight gain, obesity?"</string>
+    <string name="main16_1">"No"</string>
+    <string name="main16_2">"Yes:(grandfather/grandmother, aunt/uncle)"</string>
+    <string name="main16_3">"Yes:(father/mother, brother/sister)"</string>
+
+
+
+
+    <string name="alerter">Please enter complete information</string>
+
+
+
+    <string name="foydalanish2">This test is not a complete medical diagnosis. Results are provided for reference only and are not considered a diagnosis by a qualified physician.</string>
+    <string name="foydalanish3">The security of your data is ensured. The information you provide is anonymous and will not be passed on to third parties.</string>
+    <string name="dialogUzbRuxsatBerish">Start</string>
+
+    <string name="find3">"Your weight"</string> - Your weight
+    <string name="find4">"Abdominal circumference (at navel level, in centimeters)"</string>
+    <string name="find5">"Do you get at least 30 minutes of physical activity every day?"</string>
+    <string name="find6">"Do you eat vegetables every day?"</string>
+    <string name="find7">"Have you ever taken or are you currently taking antihypertensive (blood pressure) medications on a regular basis?"</string>
+    <string name="find8">"Have you ever been diagnosed with high blood glucose levels (during a medical exam, during an illness, or during pregnancy)?"</string>
+    <string name="find9">"Do you have diabetes in your family or relatives?"</string> - Есть ли у вас родственники с диабетом?
+
+    <string name="uz">Uzbek</string>
+    <string name="ru">Russian</string>
+
+
+
+
+
+    <string name="dialogUzb0">By starting testing, you acknowledge and agree to the following terms:</string>
+    <string name="dialogUzb2">This test is not completely diagnostic. The results are for informational purposes only and do not constitute a qualified diagnosis.\nYour information is securely protected. The information you provide is anonymous and will not be passed on to third parties.</string>
+    <string name="dialogUzb3">The security of your data is ensured. The information you provide is anonymous and will not be passed on to third parties.</string>
+
+    <string name="dialogUzbTitle">Terms of Use</string>
+    <string name="dialogUzbYoq">Cancel</string>
+    <string name="start">Next</string>
+    <string name="start2">"I have reviewed the provided information."</string>
+
+    <string name="diabetInfo">"I have reviewed the provided information."</string>
+
+    <string name="drInfo">Diabetic retinopathy is the leading cause of blindness among the working-age population in developed countries worldwide. According to various data, over 93 million people suffer from this condition.
+
+According to the Centers for Disease Control and Prevention (CDC) in the United States, 29.1 million people are affected by diabetes, while the World Health Organization reports that 347 million people worldwide suffer from this condition.
+
+Diabetic retinopathy (DR) is an eye condition associated with long-standing diabetes. 40-45% of Americans with diabetes suffer from some form of diabetic retinopathy. Early detection of DR can help slow down or prevent progressive eye damage. However, in many cases, it is challenging to detect it early, as the symptoms of this disease rarely manifest in the early stages, and by the time they do, it may be too late to apply effective treatment measures.
+
+Currently, the diagnosis of diabetic retinopathy (DR) is a highly manual process that requires a physician to review and assess digital color images of the retinal vessels. During this time, results delayed by two to three days until the physician presents their conclusion can lead to a loss of control, lack of understanding, and a delay in treatment.
+
+Clinicians diagnose diabetic retinopathy (DR) based on lesions associated with vascular abnormalities. Although this method is effective, it requires a lot of resources. In areas with a large diabetic population, there is often a lack of necessary knowledge and equipment. As the number of people with diabetes increases, there is a shortage of the infrastructure needed to prevent blindness from DR.
+
+The need for a comprehensive and automated approach to diabetic retinopathy (DR) screening has long been recognized, and previous efforts have made significant progress in this field using image classification, image recognition, and machine learning. By utilizing digital fundus images as input data, detection can be performed in an automated system, leading to the creation of models with a realistic clinical perspective.</string>
+
+    <string name="account">Account</string>
+    <string name="change_account_name">Change account name</string>
+    <string name="change_image">Change account image</string>
+    <string name="help"><![CDATA[Help & Feedback]]></string>
+    <string name="support_us">Support</string>
+    <string name="infooo">About app</string>
+    <string name="about_us">About us</string>
+    <string name="contact_us"><![CDATA[Contact & Feedback]]></string>
+    <string name="name">Name</string>
+    <string name="save">Save</string>
+    <string name="share">Share</string>
+    <string name="language">Choose language</string>
+    <string name="cancel">Cancel</string>
+    <string name="main">Main page</string>
+
+    <string name="delete1">"Do you really want to delete ?"</string>
+    <string name="delete2">"Yes"</string>
+    <string name="delete3">"No"</string>
+    <string name="delete4">"Warning"</string>
+
+
+    <string name="d1">Your result</string>
+    <string name="d2">"There is a risk of developing early diabetes, please consult your doctor."</string>
+    <string name="d5">"According to the Test results, you at risk of developing diabetes was not identified"</string>
+
+    <string name="starttxt1">"!!!"</string>
+    <string name="starttxt2">"!!!"</string>
+    <string name="starttxt3">"!!!"</string>
+
+    <string name="dryes">✅No retinopathy detected!</string>
+    <string name="drno">☹️Retinopathy detected!!</string>
+    <string name="dr">Diabetic retinopathy</string>
+    <string name="dr_low">✅Mild retinopathy was detected!</string>
+    <string name="dr_high">☹️The presence of severe retinopathy was detected!</string>
+    <string name="dr_medium">✅Moderate retinopathy was detected!</string>
+
+    <string name="find_1">Your risk of developing type 2 diabetes over the next 10 years is low!</string>
+    <string name="find_2">The risk of developing type 2 diabetes mellitus is SIGNIFICANTLY INCREASED!</string>
+    <string name="find_3">The risk of developing type 2 diabetes is MODERATE!</string>
+    <string name="find_4">The risk of developing type 2 diabetes is HIGH!</string>
+    <string name="find_5">The risk of developing type 2 diabetes is VERY HIGH!</string>
+    <string name="f1">LOW ✅</string>
+    <string name="f2">MEDIUM ❕</string>
+    <string name="f3">HIGH ‼️</string>
+    <string name="info_1">"Prediabetes is the first sign that indicates the risk of Type II diabetes. This means that your blood sugar level is above normal. Most people diagnosed with type two diabetes are people diagnosed with early diabetes. But do not rush to despair and panic, because lifestyle changes, nutrition and medication help to return blood sugar levels to normal and prevent the development of diabetes or significantly delay its development.
+
+Prediabetic disease occurs in cases where the body does not. it responds correctly to the hormone insulin and, as a result, is not able to maintain normal levels of glucose (sugar) in the blood. Blood sugar levels are higher than normal, but not enough to diagnose diabetes. If diet, medication and exercise are not prescribed in time, the condition can worsen and lead to the development of diabetes mellitus and serious complications such as heart disease and major blood vessels, stroke, vision disorders, diseases of the nervous system and kidneys."</string>
+    <string name="info_2">"📜
+Diabetes mellitus (QD) is a chronic disease that develops when the body cannot produce enough insulin or use it effectively. Insulin is a hormone that ensures that blood sugar levels are in moderation. When left uncontrolled, diabetes leads to hyperglycemia, that is, an increase in blood glucose (sugar). Over time, this leads to serious disorders in many systems of the body, such as the heart, blood vessels, eyes, joints and nerves. Prior to the development of Type 2 QD, changes commonly known as prediabetes are observed in the body.
+The" FINDRISC " scale was compiled by Finnish researchers and has been used in many European countries. Validation of the scale (i.e., making studies to ensure accuracy) has been conducted in Germany, the Netherlands, Denmark, Sweden, the United Kingdom and Australia. This scale has been tested in Germany, the United States, Switzerland and Canada at a high level and good indicators of accuracy have been observed."</string>
+    <string name="info_4">"📕 Diabetic foot syndrome
+ Diabetic foot syndrome (diabetic foot, English diabetic foot) is a complex of anatomical and functional changes that develop against the background of diabetic neuropathy, micro - and macroangiopathy, osteoarthropathy, helping to increase the damage and infection of the soft tissues of the foot. the development of purulent-necrotic process and leads to amputation in advanced cases
+
+📕 Symptoms of the disease
+ Diabetic foot syndrome is the main cause of limb amputation in diabetes mellitus. About 8-10 percent of patients with diabetes are affected, and 40-50 percent of them belong to the risk group. Diabetic foot syndrome develops 10 times more often in people with Type 2 diabetes. In at least 47% of patients, treatment begins as late as possible. The result is amputation of the limbs, which increases the mortality rate of patients by 2 times and increases the subsequent costs for the treatment and rehabilitation of patients by 3 times. Improving diagnostic tactics, clinical examination and treatment of patients can reduce the frequency of amputations in patients by 43-85%.Dabetic foot syndrome develops in most patients with Type 1 diabetes 7-10 years after the onset of the disease; in patients with Type 2 diabetes, it can occur with the onset of the disease. In 85% of cases, it is represented by foot wounds of various severity. Studies show that life-time pathology in a Diabetic Society accounts for about 15% and can peak up to 25%.."</string>
+
+
+
+    <string name="data1">Saved data</string>
+    <string name="data2">Diabetes</string>
+    <string name="data3">Info</string>
+    <string name="data5">The picture you are sending</string> - the photo you are sending
+    <string name="data6">Upload image</string>
+    <string name="data7">Send</string>
+    <string name="information">Additional Information</string>
+    <string name="follow">Follow us</string>
+    <string name="fordata">You need to send the image in the form of png or jpg !</string>
+    <string name="data4">"Upload the fundus image to the app via the fundus camera. Upload the image as shown in the example, otherwise it will give an incorrect result."</string>
+
+
+    <string name="stapa_res1">"‼️ The image revealed a diabetic wound. We ask you to contact your doctor immediately"</string>
+    <string name="stapa_res2">"Normal skin image ✅"</string>
+    <string name="maintitle">"Diabetes detection android app based on artificial intelligence"</string>
+
+
+    <string name="exitt">"Exit"</string>
+    <string name="info11">"About Autism"</string>
+    <string name="register1_1">"Enter your name and password to access the doctor version"</string>
+    <string name="register1_2">"Your Email"</string>
+    <string name="register1_3">"Your password"</string>
+    <string name="register1_4">"Cancel"</string>
+    <string name="register1_5">"L.F.S"</string>
+    <string name="dialog_doctor">Error in login or password!</string>
+
+    <string name="verify_good">You have successfully registered !</string>
+    <string name="verify_bad">"You did not register, please try again."</string>
+    <string name="manba">"Source"</string>
+    <string name="dta">Info</string>
+
+
+    <string name="langg">"Change language"</string>
+    <string name="verify">"Verification"</string>
+    <string name="verify_txt1">"The SMS code has been sent to your email address."</string>
+    <string name="verify_txt2">"Enter code"</string>
+    <string name="user_txt1">"Start test"</string>
+    <string name="user_txt2">"Photo Test"</string>
+    <string name="registr1">"Registration"</string>
+    <string name="registr2">"FirstName"</string>
+    <string name="registr3">"LastName"</string>
+    <string name="registr4">"Surname"</string>
+    <string name="registr5">"Job Location"</string>
+    <string name="registr6">"Work phone number"</string>
+    <string name="registr7">"Position"</string>
+    <string name="registr8">"Email"</string>
+    <string name="registr9">"Phone Number"</string>
+    <string name="registr10">"Password"</string>
+    <string name="registr11">"Submit"</string>
+
+    <string name="food_green1">"Barcha sabzavotlar"</string>
+    <string name="food_green2">"Qo'ziqorinlar"</string>
+    <string name="food_green3">"Kaloriyasiz ichimliklar"</string>
+    <string name="food_green1_1">"•kartoshka"</string>
+    <string name="food_green1_2">"•makkajo'xori"</string>
+    <string name="food_green1_3">"•yetilgan dukkaklilar , ‼️no'xat va loviyadan tashqari"</string>
+    <string name="food_green2_1">"•barcha qo'ziqorinlar"</string>
+    <string name="food_green3_1">"•choy"</string>
+    <string name="food_green3_2">"•shakar va qaymoqsiz qahva"</string>
+    <string name="food_green3_3">"•mineral suv"</string>
+    <string name="food_green3_4">"•qand o'rnini bosuvchilarda tayyorlangan gazlangan ichimliklar"</string>
+
+    <string name="food_yellow1">"Tarkibida oqillari bor maxsulotlar"</string>
+    <string name="food_yellow2">"Shirin ta'm beruvchi moddalar"</string>
+    <string name="food_yellow3">"Tarkibida o'zlashtiriladigan uglevodlar bo'lgan maxsulotlar"</string>
+    <string name="food_yellow1_1">"•yog'siz go'sht"</string>
+    <string name="food_yellow1_2">"•baliq"</string>
+    <string name="food_yellow1_3">"•pishloq , yog'ligi &lt; 30%"</string>
+    <string name="food_yellow1_4">"•tvorog yog'ligi , &lt; 4%"</string>
+    <string name="food_yellow1_5">"•yog'siz va nordon sutli maxsulotlar"</string>
+    <string name="food_yellow2_1">"•aspartam"</string>
+    <string name="food_yellow2_2">"•saxarin"</string>
+    <string name="food_yellow2_3">"•tsiklamat"</string>
+    <string name="food_yellow2_4">"•atsesulfam"</string>
+    <string name="food_yellow3_1">"•kartoshka"</string>
+    <string name="food_yellow3_2">"•makkajo'xori"</string>
+    <string name="food_yellow3_3">"•yetilgan dukkaklar"</string>
+    <string name="food_yellow3_4">"•non"</string>
+    <string name="food_yellow3_5">"•makaron maxsulotlari"</string>
+    <string name="food_yellow3_6">"•mevalar  ‼️(uzum va quritilgan mevalar bundan mustasno) "</string>
+
+    <string name="food_red1">"Tarkibida oqsillari bor maxsulotlar"</string>
+    <string name="food_red2">"Tarkibida oddiy uglevodlar bo'lgan maxsulotlar"</string>
+    <string name="food_red3">"Qand o'rnini bosuvchilar: Spirtli ichimliklar"</string>
+    <string name="food_red1_1">"•Har qanday yog'"</string>
+    <string name="food_red1_2">"•Mol yog'i"</string>
+    <string name="food_red1_3">"•Smetana"</string>
+    <string name="food_red1_4">"•Margarin"</string>
+    <string name="food_red1_5">"•Mayonez"</string>
+    <string name="food_red1_6">"•Qaymoq"</string>
+    <string name="food_red1_7">"•Yog'li go'sht"</string>
+    <string name="food_red1_8">"•Dudlangan maxsulotlar"</string>
+    <string name="food_red1_9">"•Kolbasalar"</string>
+    <string name="food_red1_10">"•Yog'li baliq"</string>
+    <string name="food_red1_11">"•Yong'oqlar"</string>
+    <string name="food_red1_12">"•Pista"</string>
+    <string name="food_red1_13">"•tvorog yog'ligi , &lt; 4%"</string>
+    <string name="food_red1_14">"•pishloq , yog'ligi &lt; 30%"</string>
+
+    <string name="food_red2_1">"•Shakar"</string>
+    <string name="food_red2_2">"•Asal"</string>
+    <string name="food_red2_3">"•Murabbo"</string>
+    <string name="food_red2_4">"•Djemlar"</string>
+    <string name="food_red2_5">"•Muzqaymoq"</string>
+    <string name="food_red2_6">"•Shokolat"</string>
+    <string name="food_red2_7">"•Konfetlar"</string>
+    <string name="food_red2_8">"•Pechenie va boshqa qandli maxsulotlar"</string>
+    <string name="food_red2_9">"•Shirin gazlangan ichimliklar"</string>
+    <string name="food_red2_10">"•Sharbatlar"</string>
+
+
+
+</resources>
