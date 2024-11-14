@@ -12,12 +12,12 @@
         "source": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-main-68:/layout/layout_ruxsat.xml"
     },
     {
-        "merged": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-mergeDebugResources-65:/layout/screen_firsttype.xml",
-        "source": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-main-68:/layout/screen_firsttype.xml"
-    },
-    {
         "merged": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-mergeDebugResources-65:/layout/screen_info.xml",
         "source": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-main-68:/layout/screen_info.xml"
+    },
+    {
+        "merged": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-mergeDebugResources-65:/layout/screen_firsttype.xml",
+        "source": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-main-68:/layout/screen_firsttype.xml"
     },
     {
         "merged": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-mergeDebugResources-65:/layout/screen_assistant.xml",
@@ -30,6 +30,10 @@
     {
         "merged": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-mergeDebugResources-65:/layout/screen_secondtype.xml",
         "source": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-main-68:/layout/screen_secondtype.xml"
+    },
+    {
+        "merged": "uz.alpha.qandlidiabetstartup.app-mergeDebugResources-65:/layout/screen_sign_in.xml",
+        "source": "uz.alpha.qandlidiabetstartup.app-main-68:/layout/screen_sign_in.xml"
     },
     {
         "merged": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-mergeDebugResources-65:/layout/screen_start.xml",
@@ -130,10 +134,6 @@
     {
         "merged": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-mergeDebugResources-65:/layout/dialog_result.xml",
         "source": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-main-68:/layout/dialog_result.xml"
-    },
-    {
-        "merged": "uz.alpha.qandlidiabetstartup.app-mergeDebugResources-65:/layout/page_chat.xml",
-        "source": "uz.alpha.qandlidiabetstartup.app-main-68:/layout/page_chat.xml"
     },
     {
         "merged": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-mergeDebugResources-65:/layout/screen_delete.xml",

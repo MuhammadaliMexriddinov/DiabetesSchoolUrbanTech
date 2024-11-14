@@ -24,12 +24,12 @@
         "source": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-main-68:/layout/screen_test_diabetc.xml"
     },
     {
-        "merged": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-merged_res-66:/drawable_footicon.png.flat",
-        "source": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-main-68:/drawable/footicon.png"
-    },
-    {
         "merged": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-merged_res-66:/drawable_mainicon.png.flat",
         "source": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-main-68:/drawable/mainicon.png"
+    },
+    {
+        "merged": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-merged_res-66:/drawable_footicon.png.flat",
+        "source": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-main-68:/drawable/footicon.png"
     },
     {
         "merged": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-merged_res-66:/layout_page_green.xml.flat",
@@ -76,10 +76,6 @@
         "source": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-main-68:/drawable/shapebottomnavigation.xml"
     },
     {
-        "merged": "uz.alpha.qandlidiabetstartup.app-merged_res-66:/drawable_doctor7.jpg.flat",
-        "source": "uz.alpha.qandlidiabetstartup.app-main-68:/drawable/doctor7.jpg"
-    },
-    {
         "merged": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-merged_res-66:/drawable_insta.png.flat",
         "source": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-main-68:/drawable/insta.png"
     },
@@ -92,12 +88,12 @@
         "source": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-main-68:/layout/layout_language.xml"
     },
     {
-        "merged": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-merged_res-66:/drawable_profil1.png.flat",
-        "source": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-main-68:/drawable/profil1.png"
-    },
-    {
         "merged": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-merged_res-66:/drawable_baseline_arrow_back_ios_new_24.xml.flat",
         "source": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-main-68:/drawable/baseline_arrow_back_ios_new_24.xml"
+    },
+    {
+        "merged": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-merged_res-66:/drawable_profil1.png.flat",
+        "source": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-main-68:/drawable/profil1.png"
     },
     {
         "merged": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-merged_res-66:/mipmap-mdpi_ic_launcher.webp.flat",
@@ -168,6 +164,10 @@
         "source": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-main-68:/mipmap-xxhdpi/ic_launcher_round.webp"
     },
     {
+        "merged": "uz.alpha.qandlidiabetstartup.app-merged_res-66:/menu_menu.xml.flat",
+        "source": "uz.alpha.qandlidiabetstartup.app-main-68:/menu/menu.xml"
+    },
+    {
         "merged": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-merged_res-66:/drawable_sh_cancel.png.flat",
         "source": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-main-68:/drawable/sh_cancel.png"
     },
@@ -232,12 +232,12 @@
         "source": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-main-68:/layout/screen_main.xml"
     },
     {
-        "merged": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-merged_res-66:/drawable-v24_ic_launcher_foreground.xml.flat",
-        "source": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-main-68:/drawable-v24/ic_launcher_foreground.xml"
-    },
-    {
         "merged": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-merged_res-66:/layout_screen_findrisk.xml.flat",
         "source": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-main-68:/layout/screen_findrisk.xml"
+    },
+    {
+        "merged": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-merged_res-66:/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-main-68:/drawable-v24/ic_launcher_foreground.xml"
     },
     {
         "merged": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-merged_res-66:/drawable_ic_next.xml.flat",
@@ -284,12 +284,12 @@
         "source": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-main-68:/mipmap-anydpi-v33/ic_launcher.xml"
     },
     {
-        "merged": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-merged_res-66:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-main-68:/mipmap-anydpi-v26/ic_launcher_round.xml"
-    },
-    {
         "merged": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-merged_res-66:/drawable_shapewhite.xml.flat",
         "source": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-main-68:/drawable/shapewhite.xml"
+    },
+    {
+        "merged": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-merged_res-66:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-main-68:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
         "merged": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-merged_res-66:/mipmap-mdpi_ic_launcher_round.webp.flat",
@@ -322,6 +322,10 @@
     {
         "merged": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-merged_res-66:/color_second.xml.flat",
         "source": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-main-68:/color/second.xml"
+    },
+    {
+        "merged": "uz.alpha.qandlidiabetstartup.app-merged_res-66:/layout_screen_sign_in.xml.flat",
+        "source": "uz.alpha.qandlidiabetstartup.app-main-68:/layout/screen_sign_in.xml"
     },
     {
         "merged": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-merged_res-66:/layout_screen_sign_in.xml.flat",
@@ -386,6 +390,10 @@
     {
         "merged": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-merged_res-66:/drawable_skin.png.flat",
         "source": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-main-68:/drawable/skin.png"
+    },
+    {
+        "merged": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-merged_res-66:/drawable_doctor7.jpg.flat",
+        "source": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-main-68:/drawable/doctor7.jpg"
     },
     {
         "merged": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-merged_res-66:/layout_screen_sign_up.xml.flat",
@@ -504,6 +512,10 @@
         "source": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-main-68:/drawable/fb.png"
     },
     {
+        "merged": "uz.alpha.qandlidiabetstartup.app-merged_res-66:/navigation_nav_graph.xml.flat",
+        "source": "uz.alpha.qandlidiabetstartup.app-main-68:/navigation/nav_graph.xml"
+    },
+    {
         "merged": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-merged_res-66:/drawable_shapesignin.xml.flat",
         "source": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-main-68:/drawable/shapesignin.xml"
     },
@@ -562,10 +574,6 @@
     {
         "merged": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-merged_res-66:/layout_layout_ruxsat.xml.flat",
         "source": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-main-68:/layout/layout_ruxsat.xml"
-    },
-    {
-        "merged": "uz.alpha.qandlidiabetstartup.app-merged_res-66:/layout_page_chat.xml.flat",
-        "source": "uz.alpha.qandlidiabetstartup.app-main-68:/layout/page_chat.xml"
     },
     {
         "merged": "/Users/itvstmtpti/.gradle/daemon/8.4/uz.alpha.qandlidiabetstartup.app-merged_res-66:/drawable_shape_tab.xml.flat",

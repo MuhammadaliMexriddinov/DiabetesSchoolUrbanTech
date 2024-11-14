@@ -25,7 +25,6 @@ class SignUpScreen : Fragment(R.layout.screen_sign_up) {
     private val viewModel by viewModels<AuthViewModelImpl>()
     val uuid = SharedPref.getInstance().intExamplePref
 
-//                findNavController().navigate(SignUpScreenDirections.actionSignUpScreenToMenuPage())
     @SuppressLint("ClickableViewAccessibility")
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
@@ -46,31 +45,22 @@ class SignUpScreen : Fragment(R.layout.screen_sign_up) {
         }.launchIn(viewLifecycleOwner.lifecycleScope)
 
     binding.apply {
-        // Asl matnni saqlash uchun o'zgaruvchi
         var originalText: String? = null
 
         inputPassword.setOnTouchListener { _, event ->
             if (event.action == MotionEvent.ACTION_UP) {
-                // `drawableEnd`ni olish (index 2)
                 val drawableEnd = inputPassword.compoundDrawables[2]
 
-                // Agar `drawableEnd` mavjud bo‘lsa, davom etamiz
                 if (drawableEnd != null) {
-                    // `drawableEnd` eni
                     val drawableWidth = drawableEnd.intrinsicWidth
 
-                    // Bosish maydonini aniqlash
                     val clickArea = inputPassword.width - inputPassword.paddingEnd - drawableWidth
 
-                    // Bosilgan koordinata `clickArea` ichida ekanligini tekshiramiz
                     if (event.x > clickArea) {
-                        // Agar hozirgi matn `****` bo'lsa, original matnni ko'rsatish
                         if (inputPassword.text.toString() == "****") {
-                            // Matnni ko‘rsatish (asl matnni qayta tiklash)
                             inputPassword.setText(originalText)
                             inputPassword.setCompoundDrawablesWithIntrinsicBounds(0, 0, R.drawable.eyeon, 0)
                         } else {
-                            // Aks holda, original matnni saqlab, matnni `****` ga o'zgartirish
                             originalText = inputPassword.text.toString()
                             inputPassword.setText("****")
                             inputPassword.setCompoundDrawablesWithIntrinsicBounds(0, 0, R.drawable.eyeoff, 0)

@@ -46,3 +46,5 @@ class DoctorMainScreen : Fragment(R.layout.screen_doctor) {
             .commit()
     }
 }
+
+//Muhammadali Mexriddinov
