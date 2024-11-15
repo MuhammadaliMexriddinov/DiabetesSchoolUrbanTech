@@ -13,6 +13,11 @@
 
 ---
 
+## Colab AI Module
+
+[![Colab AI Module](https://img.shields.io/badge/Open-Colab-yellow?style=for-the-badge&logo=googlecolab)](https://colab.research.google.com/drive/11Dw2PoWUY5reiYCiJrjq18ArhzQabyRT?usp=sharing)
+
+
 ✨ **Innovative solutions for better health management!**  
 
 
