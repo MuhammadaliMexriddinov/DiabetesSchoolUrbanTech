@@ -9,6 +9,7 @@
 - **Firebase Database**
 - **Local Database**: Room / SQLite
 - **REST API**: Retrofit2
+- **Clean Architecture**: MVVM 
 
 ---
 
