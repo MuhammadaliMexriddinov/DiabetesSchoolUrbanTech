@@ -15,6 +15,11 @@
 
 ## Colab AI Module
 
+## Neyro-Assistant Code
+
+[![Neyro-Assistant Code](https://img.shields.io/badge/Download-Code-blue?style=for-the-badge&logo=google-drive)](https://drive.google.com/file/d/1fqW_JtqHedQbUE3u4no8mVNhGa3u4-IN/view?usp=sharing)
+
+
 [![Colab AI Module](https://img.shields.io/badge/Open-Colab-yellow?style=for-the-badge&logo=googlecolab)](https://colab.research.google.com/drive/11Dw2PoWUY5reiYCiJrjq18ArhzQabyRT?usp=sharing)
 
 
