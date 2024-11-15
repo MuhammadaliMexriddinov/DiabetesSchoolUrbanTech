@@ -1,11 +1,19 @@
--Android Mobile Application
--Urban Tech 2024
--Diabet
--Health Tech
--Kotlin programming language 
--Firebase database
--Local database / Room / SQLite
--Rest API / Retrofit2
+# 🛠️ Android Mobile Application  
+## 🌆 Urban Tech 2024  
+### 🩺 Diabet & Health Tech  
+
+---
+
+### 💻 Technologies Used:
+- **Kotlin Programming Language**
+- **Firebase Database**
+- **Local Database**: Room / SQLite
+- **REST API**: Retrofit2
+
+---
+
+✨ **Innovative solutions for better health management!**  
+
 
 <img width="1415" alt="Снимок экрана 2024-11-15 в 13 34 10" src="https://github.com/user-attachments/assets/cb1d3d85-9e0c-482f-9fcf-9d89df301be3">
 
